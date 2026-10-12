@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.deployment-cache/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+/delivery/
+/source_fds/
+/data/
+/tools/
+/reference_images/
+/docs/

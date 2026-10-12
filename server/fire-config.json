@@ -1,0 +1,13 @@
+{
+  "cabinetId": "HV-01",
+  "powerMW": 70,
+  "triggerAtS": 10,
+  "triggerTemperatureC": 130,
+  "thresholdC": 120,
+  "holdS": 1,
+  "phaseSearchMaxS": 120,
+  "anomalyC": 8,
+  "confirmSamples": 6,
+  "maxMaeC": 3,
+  "point": [11.5, -12, 4.5]
+}

@@ -1,0 +1,105 @@
+{
+ "files": 16,
+ "distinctGeometrySignatures": 11,
+ "perCase": {
+  "116-diya-1": {
+   "signature": "ffe19d629c45c81e",
+   "obst_count": 484,
+   "unique": 484
+  },
+  "116-diya-2": {
+   "signature": "202749b01590a5ec",
+   "obst_count": 473,
+   "unique": 473
+  },
+  "116-diya-3": {
+   "signature": "2745317344bd912a",
+   "obst_count": 467,
+   "unique": 467
+  },
+  "116-diya-4": {
+   "signature": "1b38961505898414",
+   "obst_count": 500,
+   "unique": 500
+  },
+  "116-diya-5": {
+   "signature": "f244c923a327a66f",
+   "obst_count": 477,
+   "unique": 477
+  },
+  "116-diya-6": {
+   "signature": "56a664a070e224b0",
+   "obst_count": 492,
+   "unique": 492
+  },
+  "116-diya-7": {
+   "signature": "2f7f251d8cec55e3",
+   "obst_count": 500,
+   "unique": 500
+  },
+  "116-diya-8": {
+   "signature": "c7191ccb55f1aa3b",
+   "obst_count": 490,
+   "unique": 490
+  },
+  "116-gaoya-1-100mw": {
+   "signature": "79c853139496f044",
+   "obst_count": 494,
+   "unique": 494
+  },
+  "116-gaoya-1-140mw": {
+   "signature": "79c853139496f044",
+   "obst_count": 494,
+   "unique": 494
+  },
+  "116-gaoya-1-40mw": {
+   "signature": "79c853139496f044",
+   "obst_count": 494,
+   "unique": 494
+  },
+  "116-gaoya-1-70mw": {
+   "signature": "79c853139496f044",
+   "obst_count": 494,
+   "unique": 494
+  },
+  "116-gaoya-2-100mw": {
+   "signature": "1d3b46f1956e9154",
+   "obst_count": 496,
+   "unique": 496
+  },
+  "116-gaoya-2-140mw": {
+   "signature": "1d3b46f1956e9154",
+   "obst_count": 496,
+   "unique": 496
+  },
+  "116-gaoya-2-40mw": {
+   "signature": "a67cbeccaaf8b349",
+   "obst_count": 495,
+   "unique": 495
+  },
+  "116-gaoya-2-70mw": {
+   "signature": "1d3b46f1956e9154",
+   "obst_count": 496,
+   "unique": 496
+  }
+ },
+ "masterChid": "116-diya-1",
+ "obstZeroThickness": 358,
+ "obstSolid": 126,
+ "familyCount": {
+  "METAL_GRAY": 8,
+  "INERT": 1,
+  "WHITE": 422,
+  "COLOR_CYAN": 42,
+  "COLOR_YELLOW": 4,
+  "COLOR_RED": 7
+ },
+ "openVentCount": 12,
+ "holeCount": 24,
+ "warnings": [
+  "VENT SURF_ID='OPEN' 为 FDS 计算域开边界，未绘制为建筑门窗。",
+  "HOLE 为 FDS 几何开孔，未绘制为实体挡板。",
+  "OBST 语义身份未核验，role 仅为几何形态分类。",
+  "116-gaoya-1-140mw 输入 HRRPUA=5.6E6 kW/m² x 0.25 m² = 1400 MW，已禁用。"
+ ]
+}

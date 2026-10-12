@@ -1,0 +1,37 @@
+{
+  "name": "116-fire-visualization",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "116 配电室 FDS 火灾三维可视化系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit false --emitDeclarationOnly false",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "assets": "python scripts/build_scene.py && python scripts/convert_fds_outputs.py",
+    "serve:local": "node server/start.cjs",
+    "start": "node server/start.cjs",
+    "test:server": "node --test server/simulation.test.cjs server/api.test.cjs server/demoSettings.test.cjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/drei": "^9.114.3",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4",
+    "jsdom": "^25.0.1"
+  }
+}

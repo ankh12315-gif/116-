@@ -1,0 +1,48 @@
+{
+  "cabinets": [
+    {
+      "id": "HV-01",
+      "zone": "HIGH",
+      "burnerCenterFdsM": [
+        11.75,
+        -11.95,
+        1.0
+      ],
+      "burnerXbFdsM": [
+        11.5,
+        12.0,
+        -12.2,
+        -11.7,
+        1.0,
+        1.0
+      ],
+      "sourceChid": "116-gaoya-1-40mw-0s",
+      "envelopeVerified": false,
+      "envelopeStatus": "SOURCE_BURNER_ONLY",
+      "sensorMappingStatus": "FIRE_REGION_DEVC",
+      "sensorCount": 126
+    },
+    {
+      "id": "LV-01",
+      "zone": "LOW",
+      "burnerCenterFdsM": [
+        10.52,
+        -13.65,
+        1.0
+      ],
+      "burnerXbFdsM": [
+        10.27,
+        10.77,
+        -13.9,
+        -13.4,
+        1.0,
+        1.0
+      ],
+      "sourceChid": "116-diya-1-0s",
+      "envelopeVerified": false,
+      "envelopeStatus": "SOURCE_BURNER_ONLY",
+      "sensorMappingStatus": "FIRE_REGION_DEVC",
+      "sensorCount": 105
+    }
+  ]
+}

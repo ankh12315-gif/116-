@@ -1,0 +1,53 @@
+{
+  "scenarioId": "WL-LV-01-FIRE-B0",
+  "sceneMode": "windowless",
+  "status": "READY",
+  "scaleMode": "SPAN",
+  "chid": "116-diya-1-0s",
+  "timeRangeS": [
+    0,
+    1800.0
+  ],
+  "seriesFile": "series.json",
+  "hrrFile": "hrr.json",
+  "slices": [],
+  "sourceFiles": [
+    {
+      "path": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s\\116-diya-1-0s.fds",
+      "sha256": "d2e8d994f39cdfc46cefc959b543082b86520e7112e66f99f5577f1fcbd58958"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s\\116-diya-1-0s.smv",
+      "sha256": "732e49af2a8b488bb311c3c94433b4d66c6553e1381191227611aefb9a0ec69c"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s\\116-diya-1-0s.out",
+      "sha256": "59dc2a301febba4f48a6c54b5fcd10f179b49c02603e15037bd5bba469b7f22f"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s\\116-diya-1-0s_hrr.csv",
+      "sha256": "97b992a4ec6dec9e1fb4562c8f67052505657501932a2551210fa4d1ab108c4a"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s\\116-diya-1-0s_devc.csv",
+      "sha256": "00a36f314d1f6130ee7c192b65c104836fe1e870295010b4027e24f8d56c864c"
+    }
+  ],
+  "units": {
+    "time": "s",
+    "temperature": "C"
+  },
+  "hrr": {
+    "peakKW": 117.91044,
+    "peakTimeS": 86.416946,
+    "sourceFile": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s\\116-diya-1-0s_hrr.csv",
+    "frameCount": 1001,
+    "sampling": "FULL_RESOLUTION"
+  },
+  "dataProvenance": {
+    "origin": "V8_USER_UPLOADED_OUTPUT",
+    "sourceDirectory": "D:\\可视化\\无窗\\116-glassdi\\glassdi\\0s\\116-diya-1-0s",
+    "sourceFdsSha256": "d2e8d994f39cdfc46cefc959b543082b86520e7112e66f99f5577f1fcbd58958"
+  },
+  "geometryFile": "/assets/scenes/windowless/geometries/WL-LV-01-FIRE-B0.json"
+}

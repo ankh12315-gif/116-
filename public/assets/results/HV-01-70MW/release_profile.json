@@ -1,0 +1,72 @@
+{
+ "sampleCount": 1001,
+ "timeStartS": 0.0,
+ "timeEndS": 1800.0,
+ "peakKW": 6555.9581,
+ "peakTimeS": 3.606,
+ "peakSampleIndex": 2,
+ "baselineKW": 0.0,
+ "lastNonZeroTimeS": 250.2043,
+ "decay": {
+  "half": {
+   "fractionOfPeak": 0.5,
+   "thresholdKW": 3277.979,
+   "lastAboveTimeS": 3.606,
+   "lastAboveSampleIndex": 2,
+   "downCrossTimeS": 5.4174,
+   "reached": true
+  },
+  "decay10": {
+   "fractionOfPeak": 0.1,
+   "thresholdKW": 655.5958,
+   "lastAboveTimeS": 3.606,
+   "lastAboveSampleIndex": 2,
+   "downCrossTimeS": 5.4174,
+   "reached": true
+  },
+  "decay02": {
+   "fractionOfPeak": 0.02,
+   "thresholdKW": 131.1192,
+   "lastAboveTimeS": 5.4174,
+   "lastAboveSampleIndex": 3,
+   "downCrossTimeS": 7.2072,
+   "reached": true
+  },
+  "decay005": {
+   "fractionOfPeak": 0.005,
+   "thresholdKW": 32.7798,
+   "lastAboveTimeS": 246.6187,
+   "lastAboveSampleIndex": 137,
+   "downCrossTimeS": 203.4196,
+   "reached": true
+  }
+ },
+ "decayNote": "衰减时刻的主口径是 lastAboveTimeS = 最后一个 HRR > 峰值×frac 的采样时刻，即曲线此后始终不超过该阈值。downCrossTimeS 是从峰值起沿下降沿的首个越阈时刻，两者可能因曲线非单调而不同。不要用「最后一个 <= 阈值的采样」当衰减时刻：本批数据在末段HRR 归零且保持到 1800 s，该口径会一律返回 1800 s，无信息量。",
+ "integratedHeatReleaseKJ": 33242.352,
+ "integratedHeatReleaseMJ": 33.24235,
+ "integration": {
+  "method": "TRAPEZOID_ON_SAMPLES",
+  "leftRectangleKJ": 33271.03,
+  "rightRectangleKJ": 33213.674,
+  "methodSpreadKJ": 57.356,
+  "approximationNote": "梯形法直接作用于非均匀采样序列，未做分段线性重构。methodSpreadKJ 给出梯形法与左右矩形法三者的极差，可视为积分方法选择带来的误差量级下界；真实误差还取决于 HRR 在采样间隔内的曲率，本脚本不估计曲率，故不给出严格误差界。"
+ },
+ "sampling": {
+  "uniform": false,
+  "distinctDtCount": 133,
+  "dtMinS": 1.7682,
+  "dtMaxS": 1.8606,
+  "dtMeanS": 1.8,
+  "dtStdDevS": 0.009962,
+  "dtCoefficientOfVariation": 0.005535,
+  "note": "采样间隔**不均匀**：133 个不同取值，min=1.768200 s、max=1.860600 s、变异系数=0.0055。时间轴在 FDS 侧按 DT 累加生成，浮点累加造成微小漂移，前端若按等间隔插值会产生轻微错位。"
+ },
+ "dataFactsOnly": true,
+ "interpretationPolicy": "本文件仅包含由 *_hrr.csv 直接算出的数值事实，不含任何成因推断或燃烧学解释。",
+ "scenarioId": "HV-01-70MW",
+ "chid": "116-gaoya-1-70mw",
+ "sourceFile": null,
+ "samplingPolicy": null,
+ "manifestPeakKW": 6555.9581,
+ "manifestPeakMatches": true
+}

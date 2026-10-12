@@ -1,0 +1,15 @@
+from pathlib import Path
+p=Path('src/store/useFireStore.ts');s=p.read_text(encoding='utf-8')
+s=s.replace('let alarmSeq = 0;','let alarmSeq = 0;\nlet datasetRequest = 0;\nlet planeRequest = 0;\nlet volumeRequest = 0;')
+s=s.replace('  async selectCabinet(id) {','  async selectCabinet(id) {\n    ++datasetRequest; ++planeRequest; ++volumeRequest;')
+s=s.replace('  async activateScenario(scenarioId) {','  async activateScenario(scenarioId) {\n    const request = ++datasetRequest;')
+s=s.replace('if (get().activeScenarioId !== scenarioId) return;', 'if (request !== datasetRequest || get().activeScenarioId !== scenarioId) return;')
+s=s.replace('if (get().activeScenarioId === scenarioId && get().slicePlane === plane) set({ sliceData: loaded, sliceLoading: false });',"if (request === datasetRequest && get().activeScenarioId === scenarioId && get().slicePlane === plane) set({ sliceData: loaded, sliceLoading: false, datasetError: Object.keys(loaded).length < target.length ? '部分温度切片加载失败；灰斜纹区域为数据不可用' : null });")
+s=s.replace('      if (volumeManifest && get().showVolume)', '      if (request === datasetRequest && volumeManifest && get().showVolume)')
+s=s.replace('  async selectVolumeMesh(meshIndex) {','  async selectVolumeMesh(meshIndex) {\n    const request = ++volumeRequest;')
+s=s.replace('if (get().activeScenarioId !== s.activeScenarioId || !get().showVolume) return;', 'if (request !== volumeRequest || get().activeScenarioId !== s.activeScenarioId || !get().showVolume) return;')
+s=s.replace('  setSlicePlane(p) {','  setSlicePlane(p) {\n    const request = ++planeRequest;')
+s=s.replace('if (get().activeScenarioId === s.activeScenarioId && get().slicePlane === p) set({ sliceData: loaded, sliceLoading: false });', "if (request === planeRequest && get().activeScenarioId === s.activeScenarioId && get().slicePlane === p) set({ sliceData: loaded, sliceLoading: false, datasetError: Object.keys(loaded).length < target.length ? '部分温度切片加载失败；灰斜纹区域为数据不可用' : null });")
+# 体数据失败回调同样不能覆盖已切换的工况。
+s=s.replace("    } catch (e) {\n      set({\n        volumeData: {},", "    } catch (e) {\n      if (request !== volumeRequest || get().activeScenarioId !== s.activeScenarioId) return;\n      set({\n        volumeData: {},")
+p.write_text(s,encoding='utf-8')

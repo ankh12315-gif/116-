@@ -1,0 +1,224 @@
+{
+ "cabinets": [
+  {
+   "id": "HV-01",
+   "zone": "HIGH",
+   "burnerCenterFdsM": [
+    11.75,
+    -11.95,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    11.5,
+    12.0,
+    -12.2,
+    -11.7,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-gaoya-1-40mw",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "HV-02",
+   "zone": "HIGH",
+   "burnerCenterFdsM": [
+    1.9272179999999999,
+    -13.774556,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    1.677218,
+    2.177218,
+    -14.024556,
+    -13.524556,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-gaoya-2-40mw",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-01",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    10.52,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    10.27,
+    10.77,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-1",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-02",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    9.72,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    9.47,
+    9.97,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-2",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-03",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    8.92,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    8.67,
+    9.17,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-3",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-04",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    8.12,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    7.87,
+    8.37,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-4",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-05",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    6.52,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    6.27,
+    6.77,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-5",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-06",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    5.72,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    5.47,
+    5.97,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-6",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-07",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    4.92,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    4.67,
+    5.17,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-7",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  },
+  {
+   "id": "LV-08",
+   "zone": "LOW",
+   "burnerCenterFdsM": [
+    4.12,
+    -13.65,
+    1.0
+   ],
+   "burnerXbFdsM": [
+    3.87,
+    4.37,
+    -13.9,
+    -13.4,
+    1.0,
+    1.0
+   ],
+   "sourceChid": "116-diya-8",
+   "envelopeVerified": false,
+   "envelopeStatus": "UNVERIFIED__NOT_EQUAL_TO_BURNER_BOUNDS",
+   "sensorMappingStatus": "CASE_THERMOCOUPLE_SET",
+   "sensorCount": 8
+  }
+ ]
+}

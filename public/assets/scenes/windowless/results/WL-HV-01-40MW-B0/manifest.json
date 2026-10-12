@@ -1,0 +1,53 @@
+{
+  "scenarioId": "WL-HV-01-40MW-B0",
+  "sceneMode": "windowless",
+  "status": "READY",
+  "scaleMode": "SPAN",
+  "chid": "116-gaoya-1-40mw-0s",
+  "timeRangeS": [
+    0,
+    1800.0
+  ],
+  "seriesFile": "series.json",
+  "hrrFile": "hrr.json",
+  "slices": [],
+  "sourceFiles": [
+    {
+      "path": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s\\116-gaoya-1-40mw-0s.fds",
+      "sha256": "fca6aef736f17aaba8105d1a57ecf5912822cdb7bd22f60136a7a8ddbc7e2ae9"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s\\116-gaoya-1-40mw-0s.smv",
+      "sha256": "368fd3345490a24927e59ce3e06df02d5dc2b25d90b14aa9b0fe1179a9454990"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s\\116-gaoya-1-40mw-0s.out",
+      "sha256": "272e33ccf871493aa60b14a6590236a5508145d92c8a0a2c551734cef3db6e4b"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s\\116-gaoya-1-40mw-0s_hrr.csv",
+      "sha256": "e3ac3f10a51da09acacb2248d9c8fe83d206f5768d03076b3be150affa453b21"
+    },
+    {
+      "path": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s\\116-gaoya-1-40mw-0s_devc.csv",
+      "sha256": "31b96d7285d2d8b206bf0abc8cbf615ba6442f8d2f09e57d9a09ade690befdd3"
+    }
+  ],
+  "units": {
+    "time": "s",
+    "temperature": "C"
+  },
+  "hrr": {
+    "peakKW": 3296.8486,
+    "peakTimeS": 3.6067679,
+    "sourceFile": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s\\116-gaoya-1-40mw-0s_hrr.csv",
+    "frameCount": 1001,
+    "sampling": "FULL_RESOLUTION"
+  },
+  "dataProvenance": {
+    "origin": "V8_USER_UPLOADED_OUTPUT",
+    "sourceDirectory": "D:\\可视化\\无窗\\116-glassgao\\glassgao\\0s\\116-gaoya-1-40mw-0s",
+    "sourceFdsSha256": "fca6aef736f17aaba8105d1a57ecf5912822cdb7bd22f60136a7a8ddbc7e2ae9"
+  },
+  "geometryFile": "/assets/scenes/windowless/geometries/WL-HV-01-40MW-B0.json"
+}

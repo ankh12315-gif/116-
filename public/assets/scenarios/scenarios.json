@@ -1,0 +1,309 @@
+{
+ "scenarios": [
+  {
+   "id": "LV-01-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-01",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-1.fds",
+   "chid": "116-diya-1",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-1"
+   }
+  },
+  {
+   "id": "LV-02-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-02",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-2.fds",
+   "chid": "116-diya-2",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-2"
+   }
+  },
+  {
+   "id": "LV-03-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-03",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-3.fds",
+   "chid": "116-diya-3",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-3"
+   }
+  },
+  {
+   "id": "LV-04-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-04",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-4.fds",
+   "chid": "116-diya-4",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-4"
+   }
+  },
+  {
+   "id": "LV-05-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-05",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-5.fds",
+   "chid": "116-diya-5",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-5"
+   }
+  },
+  {
+   "id": "LV-06-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-06",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-6.fds",
+   "chid": "116-diya-6",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-6"
+   }
+  },
+  {
+   "id": "LV-07-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-07",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-7.fds",
+   "chid": "116-diya-7",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-7"
+   }
+  },
+  {
+   "id": "LV-08-FIRE",
+   "zone": "LOW",
+   "cabinetId": "LV-08",
+   "powerOptionMW": null,
+   "nominalPeakHRRKW": 123.0,
+   "inputFile": "116-diya-8.fds",
+   "chid": "116-diya-8",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-diya-window/116-diya-8"
+   }
+  },
+  {
+   "id": "HV-01-40MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-01",
+   "powerOptionMW": 40,
+   "nominalPeakHRRKW": 40000.0,
+   "inputFile": "116-gaoya-1-40mw.fds",
+   "chid": "116-gaoya-1-40mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-1-40mw"
+   }
+  },
+  {
+   "id": "HV-01-70MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-01",
+   "powerOptionMW": 70,
+   "nominalPeakHRRKW": 70000.0,
+   "inputFile": "116-gaoya-1-70mw.fds",
+   "chid": "116-gaoya-1-70mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-1-70mw"
+   }
+  },
+  {
+   "id": "HV-01-100MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-01",
+   "powerOptionMW": 100,
+   "nominalPeakHRRKW": 100000.0,
+   "inputFile": "116-gaoya-1-100mw.fds",
+   "chid": "116-gaoya-1-100mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-1-100mw"
+   }
+  },
+  {
+   "id": "HV-01-140MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-01",
+   "powerOptionMW": 140,
+   "nominalPeakHRRKW": 1400000.0,
+   "inputFile": "116-gaoya-1-140mw.fds",
+   "chid": "116-gaoya-1-140mw",
+   "tEndS": 1800.0,
+   "availability": "INVALID_SOURCE",
+   "blockedReason": "源 FDS 输入 HRRPUA=5.6E6 kW/m² × 0.25 m² = 1400 MW，与标称 140 MW 不符，需重新模拟。即使存在输出文件也不作为 140MW 工况接入。",
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-1-140mw"
+   }
+  },
+  {
+   "id": "HV-02-40MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-02",
+   "powerOptionMW": 40,
+   "nominalPeakHRRKW": 40000.0,
+   "inputFile": "116-gaoya-2-40mw.fds",
+   "chid": "116-gaoya-2-40mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-2-40mw"
+   }
+  },
+  {
+   "id": "HV-02-70MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-02",
+   "powerOptionMW": 70,
+   "nominalPeakHRRKW": 70000.0,
+   "inputFile": "116-gaoya-2-70mw.fds",
+   "chid": "116-gaoya-2-70mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-2-70mw"
+   }
+  },
+  {
+   "id": "HV-02-100MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-02",
+   "powerOptionMW": 100,
+   "nominalPeakHRRKW": 100000.0,
+   "inputFile": "116-gaoya-2-100mw.fds",
+   "chid": "116-gaoya-2-100mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-2-100mw"
+   }
+  },
+  {
+   "id": "HV-02-140MW",
+   "zone": "HIGH",
+   "cabinetId": "HV-02",
+   "powerOptionMW": 140,
+   "nominalPeakHRRKW": 140000.0,
+   "inputFile": "116-gaoya-2-140mw.fds",
+   "chid": "116-gaoya-2-140mw",
+   "tEndS": 1800.0,
+   "availability": "READY",
+   "blockedReason": null,
+   "outputFound": {
+    "devc": true,
+    "smv": true,
+    "hrr": true,
+    "fdsCompletedSuccessfully": true,
+    "caseDir": "116-gaoya-window/116-gaoya-2-140mw"
+   }
+  }
+ ],
+ "generatedFrom": "real local FDS outputs (116-*-window/)"
+}

@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.bin binary
+*.f32 binary
+*.s3d binary
+*.sf binary
+*.mask binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.docx binary

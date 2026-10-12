@@ -1,10 +1,10 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const {Simulation}=require('./simulation.cjs');
 const {POWERS,defaultSettings,validateSettings}=require('./demoSettings.cjs');
-function createApi(publicRoot,logDir){
+function createApi(publicRoot,logDir,options={}){
  const read=p=>JSON.parse(fs.readFileSync(path.join(publicRoot,p),'utf8'));
  const data={beam:read('assets/monitor-v3/beam-curves.json'),cabinetCurves:read('assets/sensors-v11/cabinet-curves.json'),cabinets:read('assets/scenarios/cabinets.json').cabinets,config:JSON.parse(fs.readFileSync(path.join(__dirname,'fire-config.json'),'utf8'))};
- const sessions=new Map();
+ const sessions=options.sessions??new Map();
  return async function api(req,res){
   if(!req.url?.startsWith('/api/'))return false;
   const send=(status,obj)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(obj));};

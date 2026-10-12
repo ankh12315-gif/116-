@@ -1,0 +1,14 @@
+{
+  "framework": "vite",
+  "installCommand": "npm ci --include=dev",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 60,
+      "includeFiles": "{server/**,public/assets/monitor-v3/beam-curves.json,public/assets/sensors-v11/cabinet-curves.json,public/assets/scenarios/cabinets.json}",
+      "excludeFiles": "{docs/**,public/assets/thermal/**,public/assets/volume/**}"
+    }
+  },
+  "rewrites": [{ "source": "/api/:path*", "destination": "/api/index?endpoint=:path*" }]
+}

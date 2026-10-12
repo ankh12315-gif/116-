@@ -1,38 +1,29 @@
 # 公网发布
 
-本工程是 Vite + React + TypeScript 前端，配套常驻 Node.js 传感器服务。
-必须部署 Web Service；只发布 dist 的静态网站无法使用自动监测和温度调控。
+网址：https://fire-116-visualization.vercel.app
+仓库：https://github.com/ankh12315-gif/116-
 
-## Render 免费部署
+## 当前部署
 
-1. 仓库：https://github.com/ankh12315-gif/116-
-2. 在 Render 创建 Web Service，选择 Public Git Repository 并连接该仓库的 main 分支。
-3. 选择 Free（$0/月）和新加坡区域；不要添加付费磁盘、数据库或支付方式。
-4. 构建：`npm ci --include=dev && npm run build`。
-5. 启动：`npm start`；前端产物为 `dist`。
-6. 健康检查：`/api/setup`。
-7. 公网地址由 Render 创建服务时生成，部署成功后以面板显示的 HTTPS 地址为准。
+- 平台：Vercel，cdt 团队，Hobby 免费套餐。
+- 框架：Vite + React + TypeScript；根目录 ./。
+- 安装：npm ci --include=dev；构建：npm run build；前端输出：dist。
+- 接口：api/index.js → server/vercelHandler.cjs，复用原 server/api.cjs 和 Simulation。
+- 会话：Upstash Redis fire-116-sessions，Free 套餐（500,000 命令/月）。环境变量由 Vercel 集成注入，不放进代码或仓库。
+- FDS 运行资产完整来自 public；原始几何、温度、烟气及算法未改动，构建不运行资产生成脚本。
 
-也可手动创建 Web Service，使用上述构建、启动命令，设置 HOST=0.0.0.0、NODE_VERSION=22.16.0，计算规格必须选择 Free。
+Render 免费入口要求绑卡，因此未创建 Render 服务，未填写银行卡或付款。
+Vercel 和 Redis 均有免费额度限制，不能视为无限用量；不选择 Pro、Pay As You Go 或其他付费套餐。达到免费上限时可能暂停或拒绝请求，应在平台面板查看用量。
 
 ## 再次发布
 
-在工程目录修改代码并执行 `npm run build` 和相关测试，通过后：
+修改后运行 npm run build、npm test 和 npm run test:server，通过后 git add、git commit、git push origin main。
+Vercel 自动构建发布；在项目 Deployments 确认 Production 状态 Ready。若只改变环境变量，使用现有生产部署的 Redeploy，应用最新设置。
 
-```powershell
-git add src server public package.json package-lock.json vite.config.ts render.yaml
-git commit -m "Update visualization"
-git push origin main
-```
+## 本地与云端会话
 
-本次使用公开仓库地址连接，推送后在 Render 服务面板选择 Manual Deploy → Deploy latest commit。通过 Git Provider 或 Blueprint 配置的自动部署属于另一个选项，本次无需启用。
+npm start 仍使用常驻 Node 监听 127.0.0.1:5184，本地 Map 会话行为不变。云端适配只保存 Simulation 可变状态，不复制或修改 FDS 曲线，并在每次请求恢复原有类方法；跨实例请求通过有期限的锁串行处理。生产与预览会话分开，空闲一小时过期。
 
-## 保留现有行为的部署配置
+健康检查 /api/setup 不依赖 Redis。若设置页能打开但确认后出现“会话服务暂不可用”，检查免费 Redis 是否 Available、是否连接本项目 Production、环境变量是否注入，随后 Redeploy。无需公开或在聊天中粘贴数据库 Token。
 
-- Node 默认仍监听本机 127.0.0.1:5184；云端通过 HOST 和 PORT 覆盖。
-- HTTP 和 HTTPS 同主机 Origin 均允许；其他主机仍拒绝。
-- public 中的原始运行资产完整保留；安装、构建不会运行 FDS 资产生成脚本。
-- .gitattributes 将温度和烟气二进制资产标记为 binary，防止 Git 换行转换。
-- node_modules、dist、原始输入备份、本地免安装包和运行日志不上传。
-
-免费服务闲置15分钟后会休眠，首次访问需要等待唤醒。重启会清空内存会话和运行时日志，刷新网页即可重新开始；FDS资产来自仓库，不会因此改变。资产体积约2.1GB，首次推送、云端构建和部分场数据下载会较慢。免费带宽和构建额度以 Render 账户面板为准。
+FDS 资产约 2.1GB，首次部署及温度场下载需要时间。中国大陆不同网络对 vercel.app 的访问情况可能不同，应以目标电脑实际打开结果为准。

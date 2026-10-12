@@ -14,7 +14,7 @@
     "assets": "python scripts/build_scene.py && python scripts/convert_fds_outputs.py",
     "serve:local": "node server/start.cjs",
     "start": "node server/start.cjs",
-    "test:server": "node --test server/simulation.test.cjs server/api.test.cjs server/demoSettings.test.cjs"
+    "test:server": "node --test server/simulation.test.cjs server/api.test.cjs server/demoSettings.test.cjs server/cloudSessions.test.cjs"
   },
   "dependencies": {
     "react": "^18.3.1",

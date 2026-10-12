@@ -31,3 +31,8 @@ test('missing cloud credentials fail closed; lock commands have bounded expiry a
  const calls=[],store=redisStore({UPSTASH_REDIS_REST_URL:'https://redis.example',UPSTASH_REDIS_REST_TOKEN:'test-only'},async(_url,options)=>{calls.push(JSON.parse(options.body));return{ok:true,json:async()=>({result:'OK'})};});
  const owner=await store.acquire();await store.release(owner);assert.deepEqual(calls[0].slice(-3),['NX','PX',65000]);assert.equal(calls[1][0],'EVAL');assert.equal(calls[1].at(-1),owner);
 });
+test('overlapping cloud sampling and button requests wait briefly instead of losing state',async()=>{
+ let tries=0;
+ const store=redisStore({KV_REST_API_URL:'https://redis.example',KV_REST_API_TOKEN:'test-only'},async()=>({ok:true,json:async()=>({result:++tries===1?null:'OK'})}));
+ assert.equal(typeof await store.acquire(),'string');assert.equal(tries,2);
+});

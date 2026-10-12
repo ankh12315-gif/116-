@@ -1,0 +1,9402 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedFrom": {
+    "masterChid": "116-gaoya-2-140mw",
+    "masterFile": "D:\\可视化\\不开窗\\WorkBuddy_116_Fire_Visualization\\..\\116-gaoya-window\\116-gaoya-2-140mw\\116-gaoya-2-140mw.fds",
+    "sourceFiles": [
+      "D:\\可视化\\不开窗\\WorkBuddy_116_Fire_Visualization\\..\\116-gaoya-window\\116-gaoya-2-140mw\\116-gaoya-2-140mw.fds"
+    ],
+    "note": "Original coordinates; HOLE subtraction; actual SMV HIDE_OBST removal times (not rounded DEVICE_ACT)."
+  },
+  "coordinateSystem": {
+    "name": "FDS",
+    "units": "m",
+    "bbox": [
+      -1.0,
+      14.0,
+      -17.0,
+      1.5,
+      0.0,
+      6.5
+    ],
+    "note": "FDS(x,y,z)；Three.js 映射 three = [x, z, -y]（见 src/utils/coords.ts）"
+  },
+  "meshes": [
+    {
+      "id": "Mesh02",
+      "xb": [
+        -1.0,
+        2.5,
+        -13.0,
+        1.5,
+        0.0,
+        6.5
+      ],
+      "ijk": [
+        7,
+        29,
+        13
+      ]
+    },
+    {
+      "id": "Mesh03",
+      "xb": [
+        2.5,
+        14.0,
+        -14.5,
+        1.5,
+        0.0,
+        6.5
+      ],
+      "ijk": [
+        23,
+        32,
+        13
+      ]
+    },
+    {
+      "id": "Mesh04",
+      "xb": [
+        -1.0,
+        14.0,
+        -17.0,
+        -14.5,
+        0.0,
+        6.5
+      ],
+      "ijk": [
+        30,
+        5,
+        13
+      ]
+    },
+    {
+      "id": "Mesh05",
+      "xb": [
+        0.5,
+        2.5,
+        -14.5,
+        -13.0,
+        0.0,
+        6.5
+      ],
+      "ijk": [
+        20,
+        15,
+        65
+      ]
+    },
+    {
+      "id": "Mesh06",
+      "xb": [
+        -1.0,
+        0.5,
+        -14.5,
+        -13.0,
+        0.0,
+        6.5
+      ],
+      "ijk": [
+        3,
+        3,
+        13
+      ]
+    }
+  ],
+  "solids": [
+    {
+      "i": 0,
+      "id": "Obstruction",
+      "xb": [
+        1.677218,
+        2.177218,
+        -14.024556,
+        -13.524556,
+        0.9,
+        1.0
+      ],
+      "fam": "INERT",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 0
+    },
+    {
+      "i": 2200,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.5,
+        -8.0,
+        -7.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 22
+    },
+    {
+      "i": 2300,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 23
+    },
+    {
+      "i": 2600,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.5,
+        -16.5,
+        -16.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 26
+    },
+    {
+      "i": 2900,
+      "id": "AcDb3dSolid - 411",
+      "xb": [
+        2.5,
+        4.5,
+        -16.5,
+        -16.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 29
+    },
+    {
+      "i": 3000,
+      "id": "AcDb3dSolid - 4A6",
+      "xb": [
+        8.0,
+        8.5,
+        0.5,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 30
+    },
+    {
+      "i": 3300,
+      "id": "AcDb3dSolid - 4AD",
+      "xb": [
+        12.5,
+        13.5,
+        -6.5,
+        -6.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 33
+    },
+    {
+      "i": 3400,
+      "id": "AcDb3dSolid - 4AD",
+      "xb": [
+        13.0,
+        13.5,
+        -6.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 34
+    },
+    {
+      "i": 3700,
+      "id": "AcDb3dSolid - 4B2",
+      "xb": [
+        12.5,
+        13.0,
+        -8.0,
+        -7.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 37
+    },
+    {
+      "i": 3800,
+      "id": "AcDb3dSolid - 4B9",
+      "xb": [
+        13.0,
+        13.5,
+        -14.5,
+        -9.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 38
+    },
+    {
+      "i": 4200,
+      "id": "AcDb3dSolid - 4C4",
+      "xb": [
+        6.5,
+        8.0,
+        -16.5,
+        -16.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 42
+    },
+    {
+      "i": 4300,
+      "id": "AcDb3dSolid - 4E4",
+      "xb": [
+        0.5,
+        2.5,
+        -16.5,
+        -16.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 43
+    },
+    {
+      "i": 4400,
+      "id": "AcDb3dSolid - 511",
+      "xb": [
+        0.5,
+        2.0,
+        0.0,
+        0.5,
+        2.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 44
+    },
+    {
+      "i": 4500,
+      "id": "AcDb3dSolid - 5FA",
+      "xb": [
+        12.5,
+        13.0,
+        -7.5,
+        -6.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 45
+    },
+    {
+      "i": 4600,
+      "id": "AcDb3dSolid - 5FA",
+      "xb": [
+        12.5,
+        13.0,
+        -7.5,
+        -6.5,
+        3.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 46
+    },
+    {
+      "i": 5500,
+      "id": "AcDb3dSolid - 61E",
+      "xb": [
+        12.5,
+        13.0,
+        -9.0,
+        -8.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 55
+    },
+    {
+      "i": 5600,
+      "id": "AcDb3dSolid - 61E",
+      "xb": [
+        12.5,
+        13.0,
+        -9.0,
+        -8.0,
+        3.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 56
+    },
+    {
+      "i": 6500,
+      "id": "AcDb3dSolid - 642",
+      "xb": [
+        12.5,
+        13.0,
+        -15.5,
+        -14.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 65
+    },
+    {
+      "i": 6600,
+      "id": "AcDb3dSolid - 642",
+      "xb": [
+        12.5,
+        13.0,
+        -15.5,
+        -14.5,
+        3.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 66
+    },
+    {
+      "i": 7500,
+      "id": "AcDb3dSolid - 66F",
+      "xb": [
+        0.5,
+        2.0,
+        0.0,
+        0.5,
+        0.0,
+        2.5
+      ],
+      "fam": "COLOR_YELLOW",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 75
+    },
+    {
+      "i": 7600,
+      "id": "AcDb3dSolid - 673",
+      "xb": [
+        11.0,
+        12.5,
+        0.0,
+        0.5,
+        2.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 76
+    },
+    {
+      "i": 7700,
+      "id": "AcDb3dSolid - 676",
+      "xb": [
+        11.0,
+        12.5,
+        0.0,
+        0.5,
+        0.0,
+        2.5
+      ],
+      "fam": "COLOR_YELLOW",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 77
+    },
+    {
+      "i": 7800,
+      "id": "AcDb3dSolid - 685",
+      "xb": [
+        0.5,
+        2.5,
+        -8.0,
+        -7.5,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 78
+    },
+    {
+      "i": 7900,
+      "id": "AcDb3dSolid - 685",
+      "xb": [
+        2.5,
+        8.0,
+        -8.0,
+        -7.5,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 79
+    },
+    {
+      "i": 8000,
+      "id": "AcDb3dSolid - 699",
+      "xb": [
+        8.0,
+        13.0,
+        -4.0,
+        -3.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 80
+    },
+    {
+      "i": 8200,
+      "id": "AcDb3dSolid - 6A9",
+      "xb": [
+        8.5,
+        13.0,
+        -16.5,
+        -16.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 82
+    },
+    {
+      "i": 8300,
+      "id": "AcDb3dSolid - 6A9",
+      "xb": [
+        12.5,
+        13.0,
+        -16.0,
+        -15.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 83
+    },
+    {
+      "i": 8400,
+      "id": "AcDb3dSolid - 6AA",
+      "xb": [
+        8.0,
+        8.5,
+        -16.5,
+        -16.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 84
+    },
+    {
+      "i": 8800,
+      "id": "AcDb3dSolid - 6B9",
+      "xb": [
+        0.0,
+        2.5,
+        -5.5,
+        -5.0,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 88
+    },
+    {
+      "i": 8900,
+      "id": "AcDb3dSolid - 6B9",
+      "xb": [
+        2.5,
+        8.0,
+        -5.5,
+        -5.0,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 89
+    },
+    {
+      "i": 9000,
+      "id": "AcDb3dSolid - 6BA",
+      "xb": [
+        8.0,
+        12.5,
+        -8.0,
+        -7.5,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 90
+    },
+    {
+      "i": 9300,
+      "id": "AcDb3dSolid - 6BC",
+      "xb": [
+        0.0,
+        2.5,
+        -11.0,
+        -10.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 93
+    },
+    {
+      "i": 9400,
+      "id": "AcDb3dSolid - 6BC",
+      "xb": [
+        2.5,
+        8.0,
+        -11.0,
+        -10.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 94
+    },
+    {
+      "i": 9600,
+      "id": "AcDb3dSolid - 6BD",
+      "xb": [
+        0.5,
+        2.5,
+        -13.6,
+        -13.3,
+        5.4,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 96
+    },
+    {
+      "i": 10000,
+      "id": "AcDb3dSolid - 6C5",
+      "xb": [
+        5.5,
+        6.5,
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 100
+    },
+    {
+      "i": 10100,
+      "id": "AcDb3dSolid - 6C5",
+      "xb": [
+        5.5,
+        6.5,
+        0.0,
+        0.5,
+        3.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 101
+    },
+    {
+      "i": 10400,
+      "id": "AcDb3dSolid - 6C8",
+      "xb": [
+        6.0,
+        6.5,
+        0.0,
+        0.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 104
+    },
+    {
+      "i": 10500,
+      "id": "AcDb3dSolid - 6CC",
+      "xb": [
+        5.5,
+        6.0,
+        0.0,
+        0.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 105
+    },
+    {
+      "i": 10600,
+      "id": "AcDb3dSolid - 6D0",
+      "xb": [
+        5.5,
+        6.0,
+        0.0,
+        0.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 106
+    },
+    {
+      "i": 10700,
+      "id": "AcDb3dSolid - 6D4",
+      "xb": [
+        6.0,
+        6.5,
+        0.0,
+        0.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 107
+    },
+    {
+      "i": 10800,
+      "id": "AcDb3dSolid - 6D8",
+      "xb": [
+        6.0,
+        6.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 108
+    },
+    {
+      "i": 10900,
+      "id": "AcDb3dSolid - 6DC",
+      "xb": [
+        5.5,
+        6.0,
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 109
+    },
+    {
+      "i": 11000,
+      "id": "AcDb3dSolid - 6E9",
+      "xb": [
+        6.5,
+        7.0,
+        0.0,
+        0.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 110
+    },
+    {
+      "i": 11100,
+      "id": "AcDb3dSolid - 6E9",
+      "xb": [
+        7.0,
+        8.0,
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 111
+    },
+    {
+      "i": 11200,
+      "id": "AcDb3dSolid - 6E9",
+      "xb": [
+        7.0,
+        8.0,
+        0.0,
+        0.5,
+        3.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 112
+    },
+    {
+      "i": 11400,
+      "id": "AcDb3dSolid - 6EC",
+      "xb": [
+        7.5,
+        8.0,
+        0.0,
+        0.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 114
+    },
+    {
+      "i": 11500,
+      "id": "AcDb3dSolid - 6F0",
+      "xb": [
+        7.0,
+        7.5,
+        0.0,
+        0.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 115
+    },
+    {
+      "i": 11600,
+      "id": "AcDb3dSolid - 6F4",
+      "xb": [
+        7.0,
+        7.5,
+        0.0,
+        0.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 116
+    },
+    {
+      "i": 11700,
+      "id": "AcDb3dSolid - 6F8",
+      "xb": [
+        7.5,
+        8.0,
+        0.0,
+        0.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 117
+    },
+    {
+      "i": 11800,
+      "id": "AcDb3dSolid - 6FC",
+      "xb": [
+        7.5,
+        8.0,
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 118
+    },
+    {
+      "i": 11900,
+      "id": "AcDb3dSolid - 700",
+      "xb": [
+        7.0,
+        7.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 119
+    },
+    {
+      "i": 12100,
+      "id": "AcDb3dSolid - 70E",
+      "xb": [
+        5.0,
+        5.5,
+        0.0,
+        0.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 121
+    },
+    {
+      "i": 12500,
+      "id": "AcDb3dSolid - 744",
+      "xb": [
+        7.5,
+        8.5,
+        -8.0,
+        -7.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 125
+    },
+    {
+      "i": 13100,
+      "id": "AcDb3dSolid - 776",
+      "xb": [
+        4.0,
+        5.0,
+        -2.0,
+        -0.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 131
+    },
+    {
+      "i": 13300,
+      "id": "AcDb3dSolid - 795",
+      "xb": [
+        4.5,
+        5.0,
+        -2.0,
+        -0.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 133
+    },
+    {
+      "i": 13800,
+      "id": "AcDb3dSolid - 7F5",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 138
+    },
+    {
+      "i": 14200,
+      "id": "AcDb3dSolid - 886",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 142
+    },
+    {
+      "i": 14900,
+      "id": "AcDb3dSolid - 8D0",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 149
+    },
+    {
+      "i": 15600,
+      "id": "AcDb3dSolid - 90B",
+      "xb": [
+        4.5,
+        5.0,
+        -3.5,
+        -2.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 156
+    },
+    {
+      "i": 16200,
+      "id": "AcDb3dSolid - A00",
+      "xb": [
+        4.0,
+        5.0,
+        -4.0,
+        -3.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 162
+    },
+    {
+      "i": 16700,
+      "id": "AcDb3dSolid - A21",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 167
+    },
+    {
+      "i": 17400,
+      "id": "AcDb3dSolid - A4B",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 174
+    },
+    {
+      "i": 17900,
+      "id": "AcDb3dSolid - A60",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 179
+    },
+    {
+      "i": 18700,
+      "id": "AcDb3dSolid - A88",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 187
+    },
+    {
+      "i": 18800,
+      "id": "AcDb3dSolid - ADC",
+      "xb": [
+        4.0,
+        5.0,
+        -2.5,
+        -2.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 188
+    },
+    {
+      "i": 19000,
+      "id": "AcDb3dSolid - AE4",
+      "xb": [
+        4.5,
+        5.0,
+        -2.5,
+        -2.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 190
+    },
+    {
+      "i": 19100,
+      "id": "AcDb3dSolid - AE8",
+      "xb": [
+        4.0,
+        5.0,
+        -5.5,
+        -4.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 191
+    },
+    {
+      "i": 19300,
+      "id": "AcDb3dSolid - AEF",
+      "xb": [
+        4.5,
+        5.0,
+        -5.5,
+        -4.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 193
+    },
+    {
+      "i": 19400,
+      "id": "AcDb3dSolid - AF3",
+      "xb": [
+        4.0,
+        5.0,
+        -6.0,
+        -5.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 194
+    },
+    {
+      "i": 19600,
+      "id": "AcDb3dSolid - AFB",
+      "xb": [
+        4.5,
+        5.0,
+        -6.0,
+        -5.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 196
+    },
+    {
+      "i": 19800,
+      "id": "AcDb3dSolid - CCF",
+      "xb": [
+        7.0,
+        7.5,
+        -0.5,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 198
+    },
+    {
+      "i": 19900,
+      "id": "AcDb3dSolid - CD3",
+      "xb": [
+        7.0,
+        7.5,
+        -2.0,
+        -0.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 199
+    },
+    {
+      "i": 20700,
+      "id": "AcDb3dSolid - D6E",
+      "xb": [
+        7.0,
+        7.5,
+        -4.0,
+        -3.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 207
+    },
+    {
+      "i": 21200,
+      "id": "AcDb3dSolid - DEF",
+      "xb": [
+        7.0,
+        7.5,
+        -2.5,
+        -2.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 212
+    },
+    {
+      "i": 21500,
+      "id": "AcDb3dSolid - DFB",
+      "xb": [
+        7.0,
+        7.5,
+        -5.5,
+        -4.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 215
+    },
+    {
+      "i": 21800,
+      "id": "AcDb3dSolid - E06",
+      "xb": [
+        7.0,
+        7.5,
+        -6.0,
+        -5.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 218
+    },
+    {
+      "i": 22500,
+      "id": "AcDb3dSolid - E8B",
+      "xb": [
+        9.5,
+        10.5,
+        -0.5,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 225
+    },
+    {
+      "i": 22600,
+      "id": "AcDb3dSolid - E8F",
+      "xb": [
+        9.5,
+        10.5,
+        -2.0,
+        -0.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 226
+    },
+    {
+      "i": 22800,
+      "id": "AcDb3dSolid - E96",
+      "xb": [
+        10.0,
+        10.5,
+        -2.0,
+        -0.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 228
+    },
+    {
+      "i": 23300,
+      "id": "AcDb3dSolid - EAB",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 233
+    },
+    {
+      "i": 23700,
+      "id": "AcDb3dSolid - EC0",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 237
+    },
+    {
+      "i": 24400,
+      "id": "AcDb3dSolid - EEA",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 244
+    },
+    {
+      "i": 25100,
+      "id": "AcDb3dSolid - F0E",
+      "xb": [
+        10.0,
+        10.5,
+        -3.5,
+        -2.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 251
+    },
+    {
+      "i": 25700,
+      "id": "AcDb3dSolid - F2A",
+      "xb": [
+        9.5,
+        10.5,
+        -4.0,
+        -3.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 257
+    },
+    {
+      "i": 26200,
+      "id": "AcDb3dSolid - F40",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 262
+    },
+    {
+      "i": 26600,
+      "id": "AcDb3dSolid - F59",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 266
+    },
+    {
+      "i": 27100,
+      "id": "AcDb3dSolid - F7F",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 271
+    },
+    {
+      "i": 27800,
+      "id": "AcDb3dSolid - FA3",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 278
+    },
+    {
+      "i": 28000,
+      "id": "AcDb3dSolid - FAB",
+      "xb": [
+        9.5,
+        10.5,
+        -2.5,
+        -2.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 280
+    },
+    {
+      "i": 28200,
+      "id": "AcDb3dSolid - FB3",
+      "xb": [
+        10.0,
+        10.5,
+        -2.5,
+        -2.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 282
+    },
+    {
+      "i": 28300,
+      "id": "AcDb3dSolid - FB7",
+      "xb": [
+        9.5,
+        10.5,
+        -5.5,
+        -4.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 283
+    },
+    {
+      "i": 28500,
+      "id": "AcDb3dSolid - FBE",
+      "xb": [
+        10.0,
+        10.5,
+        -5.5,
+        -4.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 285
+    },
+    {
+      "i": 28600,
+      "id": "AcDb3dSolid - FC2",
+      "xb": [
+        9.5,
+        10.5,
+        -6.0,
+        -5.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 286
+    },
+    {
+      "i": 28800,
+      "id": "AcDb3dSolid - FCA",
+      "xb": [
+        10.0,
+        10.5,
+        -6.0,
+        -5.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 288
+    },
+    {
+      "i": 28900,
+      "id": "AcDb3dSolid - 1032",
+      "xb": [
+        2.0,
+        2.5,
+        0.5,
+        1.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 289
+    },
+    {
+      "i": 29000,
+      "id": "AcDb3dSolid - 1032",
+      "xb": [
+        2.5,
+        3.0,
+        0.5,
+        1.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 290
+    },
+    {
+      "i": 29400,
+      "id": "AcDb3dSolid - 1079",
+      "xb": [
+        12.5,
+        13.0,
+        -6.0,
+        -4.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 294
+    },
+    {
+      "i": 30100,
+      "id": "AcDb3dSolid - 109E",
+      "xb": [
+        12.5,
+        13.0,
+        -4.0,
+        -3.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 301
+    },
+    {
+      "i": 30200,
+      "id": "AcDb3dSolid - 10A2",
+      "xb": [
+        12.5,
+        13.0,
+        -3.0,
+        -2.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 302
+    },
+    {
+      "i": 31500,
+      "id": "AcDb3dSolid - 114E",
+      "xb": [
+        11.0,
+        12.0,
+        -10.5,
+        -10.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 315
+    },
+    {
+      "i": 31800,
+      "id": "AcDb3dSolid - 1179",
+      "xb": [
+        11.0,
+        12.0,
+        -10.5,
+        -10.0,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 318
+    },
+    {
+      "i": 40200,
+      "id": "AcDb3dSolid - 1468",
+      "xb": [
+        5.0,
+        5.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 402
+    },
+    {
+      "i": 46400,
+      "id": "AcDb3dSolid - 15B2",
+      "xb": [
+        0.5,
+        2.5,
+        -16.5,
+        -16.0,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 464
+    },
+    {
+      "i": 46500,
+      "id": "AcDb3dSolid - 15E6",
+      "xb": [
+        0.5,
+        2.0,
+        -16.5,
+        -16.0,
+        4.0,
+        5.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 465
+    },
+    {
+      "i": 46600,
+      "id": "AcDb3dSolid - 15EA",
+      "xb": [
+        0.5,
+        2.0,
+        -16.5,
+        -16.0,
+        3.5,
+        4.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 466
+    },
+    {
+      "i": 46700,
+      "id": "AcDb3dSolid - 15EE",
+      "xb": [
+        0.5,
+        2.0,
+        -16.5,
+        -16.0,
+        2.5,
+        3.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 467
+    },
+    {
+      "i": 46800,
+      "id": "AcDb3dSolid - 15F2",
+      "xb": [
+        0.5,
+        2.0,
+        -16.5,
+        -16.0,
+        1.0,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 468
+    },
+    {
+      "i": 46900,
+      "id": "AcDb3dSolid - 15F6",
+      "xb": [
+        2.0,
+        2.5,
+        -16.5,
+        -16.0,
+        2.5,
+        5.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 469
+    },
+    {
+      "i": 47000,
+      "id": "AcDb3dSolid - 15FA",
+      "xb": [
+        2.0,
+        2.5,
+        -16.5,
+        -16.0,
+        1.0,
+        2.5
+      ],
+      "fam": "COLOR_YELLOW",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 470
+    },
+    {
+      "i": 47200,
+      "id": "AcDb3dSolid - 1689",
+      "xb": [
+        4.5,
+        6.5,
+        -16.5,
+        -16.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 472
+    },
+    {
+      "i": 47300,
+      "id": "AcDb3dSolid - 168D",
+      "xb": [
+        4.5,
+        6.5,
+        -16.5,
+        -16.0,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 473
+    },
+    {
+      "i": 47400,
+      "id": "AcDb3dSolid - 1691",
+      "xb": [
+        4.5,
+        6.0,
+        -16.5,
+        -16.0,
+        4.0,
+        5.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 474
+    },
+    {
+      "i": 47500,
+      "id": "AcDb3dSolid - 1695",
+      "xb": [
+        4.5,
+        6.0,
+        -16.5,
+        -16.0,
+        3.5,
+        4.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 475
+    },
+    {
+      "i": 47600,
+      "id": "AcDb3dSolid - 1699",
+      "xb": [
+        4.5,
+        6.0,
+        -16.5,
+        -16.0,
+        2.5,
+        3.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 476
+    },
+    {
+      "i": 47700,
+      "id": "AcDb3dSolid - 169D",
+      "xb": [
+        4.5,
+        6.0,
+        -16.5,
+        -16.0,
+        1.0,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 477
+    },
+    {
+      "i": 47800,
+      "id": "AcDb3dSolid - 16A1",
+      "xb": [
+        6.0,
+        6.5,
+        -16.5,
+        -16.0,
+        2.5,
+        5.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 478
+    },
+    {
+      "i": 47900,
+      "id": "AcDb3dSolid - 16A5",
+      "xb": [
+        6.0,
+        6.5,
+        -16.5,
+        -16.0,
+        1.0,
+        2.5
+      ],
+      "fam": "COLOR_YELLOW",
+      "role": "SOLID_VOLUME",
+      "conf": "GEOMETRY",
+      "reason": "OBST 三维均为非零厚度，按实体体渲染",
+      "kind": "SOLID",
+      "sourceObstIndex": 479
+    }
+  ],
+  "surfaces": [
+    {
+      "i": 100,
+      "id": "AcDb3dSolid - 1255",
+      "xb": [
+        1.5,
+        1.5,
+        -14.2,
+        -13.2,
+        0.0,
+        1.6
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 1
+    },
+    {
+      "i": 200,
+      "id": "AcDb3dSolid - 1255",
+      "xb": [
+        11.0,
+        12.0,
+        -12.0,
+        -12.0,
+        0.0,
+        1.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 2
+    },
+    {
+      "i": 300,
+      "id": "AcDb3dSolid - 1259",
+      "xb": [
+        1.5,
+        2.2,
+        -13.2,
+        -13.2,
+        0.0,
+        1.6
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 3
+    },
+    {
+      "i": 400,
+      "id": "AcDb3dSolid - 1259",
+      "xb": [
+        11.0,
+        11.0,
+        -12.0,
+        -11.5,
+        0.0,
+        1.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 4
+    },
+    {
+      "i": 500,
+      "id": "AcDb3dSolid - 125D",
+      "xb": [
+        2.2,
+        2.4,
+        -13.2,
+        -13.2,
+        0.0,
+        1.6
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 5
+    },
+    {
+      "i": 600,
+      "id": "AcDb3dSolid - 125D",
+      "xb": [
+        11.0,
+        11.0,
+        -11.5,
+        -11.0,
+        0.0,
+        1.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 6
+    },
+    {
+      "i": 700,
+      "id": "AcDb3dSolid - 1262",
+      "xb": [
+        2.4,
+        2.4,
+        -14.2,
+        -13.2,
+        0.0,
+        1.6
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 7
+    },
+    {
+      "i": 800,
+      "id": "AcDb3dSolid - 1262",
+      "xb": [
+        11.0,
+        12.0,
+        -11.0,
+        -11.0,
+        0.0,
+        1.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 8
+    },
+    {
+      "i": 900,
+      "id": "AcDb3dSolid - 126B",
+      "xb": [
+        1.5,
+        2.4,
+        -14.2,
+        -14.2,
+        1.6,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 9
+    },
+    {
+      "i": 1000,
+      "id": "AcDb3dSolid - 126B",
+      "xb": [
+        12.0,
+        12.0,
+        -12.0,
+        -11.0,
+        1.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 10
+    },
+    {
+      "i": 1100,
+      "id": "AcDb3dSolid - 1273",
+      "xb": [
+        1.5,
+        2.2,
+        -13.2,
+        -13.2,
+        1.6,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 11
+    },
+    {
+      "i": 1200,
+      "id": "AcDb3dSolid - 1273",
+      "xb": [
+        11.0,
+        11.0,
+        -12.0,
+        -11.5,
+        1.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 12
+    },
+    {
+      "i": 1300,
+      "id": "AcDb3dSolid - 1277",
+      "xb": [
+        2.2,
+        2.4,
+        -13.2,
+        -13.2,
+        1.6,
+        2.3
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 13
+    },
+    {
+      "i": 1400,
+      "id": "AcDb3dSolid - 1277",
+      "xb": [
+        11.0,
+        11.0,
+        -11.5,
+        -11.0,
+        1.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 14
+    },
+    {
+      "i": 1500,
+      "id": "AcDb3dSolid - 127B",
+      "xb": [
+        2.4,
+        2.4,
+        -14.2,
+        -13.2,
+        1.6,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 15
+    },
+    {
+      "i": 1600,
+      "id": "AcDb3dSolid - 127B",
+      "xb": [
+        11.0,
+        12.0,
+        -11.0,
+        -11.0,
+        1.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 16
+    },
+    {
+      "i": 1700,
+      "id": "AcDb3dSolid - 1284",
+      "xb": [
+        1.8,
+        1.9,
+        -13.2,
+        -13.2,
+        2.0,
+        2.1
+      ],
+      "fam": "COLOR_RED",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 17
+    },
+    {
+      "i": 1800,
+      "id": "AcDb3dSolid - 1288",
+      "xb": [
+        2.0,
+        2.1,
+        -13.2,
+        -13.2,
+        2.0,
+        2.1
+      ],
+      "fam": "COLOR_RED",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 18
+    },
+    {
+      "i": 1900,
+      "id": "AcDb3dSolid - 128C",
+      "xb": [
+        2.1,
+        2.2,
+        -13.2,
+        -13.2,
+        2.0,
+        2.1
+      ],
+      "fam": "COLOR_RED",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 19
+    },
+    {
+      "i": 2000,
+      "id": "AcDb3dSolid - 12F6",
+      "xb": [
+        1.5,
+        2.4,
+        -14.2,
+        -13.2,
+        0.0,
+        0.0
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 20
+    },
+    {
+      "i": 2100,
+      "id": "AcDb3dSolid - 12F6",
+      "xb": [
+        11.0,
+        12.0,
+        -12.0,
+        -11.0,
+        0.0,
+        0.0
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 21
+    },
+    {
+      "i": 2400,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.0,
+        -13.0,
+        -8.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 24
+    },
+    {
+      "i": 2500,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.0,
+        -7.5,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 25
+    },
+    {
+      "i": 2700,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.0,
+        -16.0,
+        -14.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 27
+    },
+    {
+      "i": 2800,
+      "id": "AcDb3dSolid - 40C",
+      "xb": [
+        0.0,
+        0.0,
+        -14.5,
+        -13.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 28
+    },
+    {
+      "i": 3100,
+      "id": "AcDb3dSolid - 4A6",
+      "xb": [
+        8.5,
+        11.0,
+        1.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 31
+    },
+    {
+      "i": 3200,
+      "id": "AcDb3dSolid - 4A6",
+      "xb": [
+        11.0,
+        11.0,
+        0.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 32
+    },
+    {
+      "i": 3500,
+      "id": "AcDb3dSolid - 4AD",
+      "xb": [
+        12.5,
+        13.0,
+        1.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 35
+    },
+    {
+      "i": 3600,
+      "id": "AcDb3dSolid - 4AD",
+      "xb": [
+        12.5,
+        12.5,
+        0.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 36
+    },
+    {
+      "i": 3900,
+      "id": "AcDb3dSolid - 4B9",
+      "xb": [
+        12.5,
+        13.0,
+        -14.5,
+        -14.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 39
+    },
+    {
+      "i": 4000,
+      "id": "AcDb3dSolid - 4B9",
+      "xb": [
+        12.5,
+        13.0,
+        -9.0,
+        -9.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 40
+    },
+    {
+      "i": 4100,
+      "id": "AcDb3dSolid - 4B9",
+      "xb": [
+        12.5,
+        13.5,
+        -14.5,
+        -14.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 41
+    },
+    {
+      "i": 4700,
+      "id": "AcDb3dSolid - 5FA",
+      "xb": [
+        12.5,
+        13.0,
+        -7.5,
+        -7.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 47
+    },
+    {
+      "i": 4800,
+      "id": "AcDb3dSolid - 5FA",
+      "xb": [
+        12.5,
+        13.0,
+        -6.5,
+        -6.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 48
+    },
+    {
+      "i": 4900,
+      "id": "AcDb3dSolid - 5FD",
+      "xb": [
+        12.5,
+        12.5,
+        -7.5,
+        -7.0,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 49
+    },
+    {
+      "i": 5000,
+      "id": "AcDb3dSolid - 601",
+      "xb": [
+        12.5,
+        12.5,
+        -7.0,
+        -6.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 50
+    },
+    {
+      "i": 5100,
+      "id": "AcDb3dSolid - 605",
+      "xb": [
+        12.5,
+        12.5,
+        -7.0,
+        -6.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 51
+    },
+    {
+      "i": 5200,
+      "id": "AcDb3dSolid - 609",
+      "xb": [
+        12.5,
+        12.5,
+        -7.5,
+        -7.0,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 52
+    },
+    {
+      "i": 5300,
+      "id": "AcDb3dSolid - 60D",
+      "xb": [
+        12.5,
+        12.5,
+        -7.5,
+        -7.0,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 53
+    },
+    {
+      "i": 5400,
+      "id": "AcDb3dSolid - 611",
+      "xb": [
+        12.5,
+        12.5,
+        -7.0,
+        -6.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 54
+    },
+    {
+      "i": 5700,
+      "id": "AcDb3dSolid - 61E",
+      "xb": [
+        12.5,
+        13.0,
+        -9.0,
+        -9.0,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 57
+    },
+    {
+      "i": 5800,
+      "id": "AcDb3dSolid - 61E",
+      "xb": [
+        12.5,
+        13.0,
+        -8.0,
+        -8.0,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 58
+    },
+    {
+      "i": 5900,
+      "id": "AcDb3dSolid - 621",
+      "xb": [
+        12.5,
+        12.5,
+        -9.0,
+        -8.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 59
+    },
+    {
+      "i": 6000,
+      "id": "AcDb3dSolid - 625",
+      "xb": [
+        12.5,
+        12.5,
+        -8.5,
+        -8.0,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 60
+    },
+    {
+      "i": 6100,
+      "id": "AcDb3dSolid - 629",
+      "xb": [
+        12.5,
+        12.5,
+        -8.5,
+        -8.0,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 61
+    },
+    {
+      "i": 6200,
+      "id": "AcDb3dSolid - 62D",
+      "xb": [
+        12.5,
+        12.5,
+        -9.0,
+        -8.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 62
+    },
+    {
+      "i": 6300,
+      "id": "AcDb3dSolid - 631",
+      "xb": [
+        12.5,
+        12.5,
+        -9.0,
+        -8.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 63
+    },
+    {
+      "i": 6400,
+      "id": "AcDb3dSolid - 635",
+      "xb": [
+        12.5,
+        12.5,
+        -8.5,
+        -8.0,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 64
+    },
+    {
+      "i": 6700,
+      "id": "AcDb3dSolid - 642",
+      "xb": [
+        12.5,
+        13.0,
+        -15.5,
+        -15.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 67
+    },
+    {
+      "i": 6800,
+      "id": "AcDb3dSolid - 642",
+      "xb": [
+        12.5,
+        13.0,
+        -14.5,
+        -14.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 68
+    },
+    {
+      "i": 6900,
+      "id": "AcDb3dSolid - 645",
+      "xb": [
+        12.5,
+        12.5,
+        -15.5,
+        -15.0,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 69
+    },
+    {
+      "i": 7000,
+      "id": "AcDb3dSolid - 649",
+      "xb": [
+        12.5,
+        12.5,
+        -15.0,
+        -14.5,
+        2.5,
+        3.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 70
+    },
+    {
+      "i": 7100,
+      "id": "AcDb3dSolid - 64D",
+      "xb": [
+        12.5,
+        12.5,
+        -15.0,
+        -14.5,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 71
+    },
+    {
+      "i": 7200,
+      "id": "AcDb3dSolid - 651",
+      "xb": [
+        12.5,
+        12.5,
+        -15.5,
+        -15.0,
+        1.5,
+        2.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 72
+    },
+    {
+      "i": 7300,
+      "id": "AcDb3dSolid - 655",
+      "xb": [
+        12.5,
+        12.5,
+        -15.5,
+        -15.0,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 73
+    },
+    {
+      "i": 7400,
+      "id": "AcDb3dSolid - 659",
+      "xb": [
+        12.5,
+        12.5,
+        -15.0,
+        -14.5,
+        1.0,
+        1.5
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 74
+    },
+    {
+      "i": 8100,
+      "id": "AcDb3dSolid - 6A1",
+      "xb": [
+        8.0,
+        13.5,
+        -12.0,
+        -12.0,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 81
+    },
+    {
+      "i": 8500,
+      "id": "AcDb3dSolid - 6AD",
+      "xb": [
+        8.5,
+        8.5,
+        -16.5,
+        -16.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 85
+    },
+    {
+      "i": 8600,
+      "id": "AcDb3dSolid - 6B4",
+      "xb": [
+        8.0,
+        8.0,
+        -14.5,
+        0.0,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 86
+    },
+    {
+      "i": 8700,
+      "id": "AcDb3dSolid - 6B4",
+      "xb": [
+        8.0,
+        8.0,
+        -16.0,
+        -14.5,
+        5.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 87
+    },
+    {
+      "i": 9100,
+      "id": "AcDb3dSolid - 6BB",
+      "xb": [
+        0.0,
+        2.5,
+        -2.5,
+        -2.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 91
+    },
+    {
+      "i": 9200,
+      "id": "AcDb3dSolid - 6BB",
+      "xb": [
+        2.5,
+        8.0,
+        -2.5,
+        -2.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 92
+    },
+    {
+      "i": 9500,
+      "id": "AcDb3dSolid - 6BD",
+      "xb": [
+        2.5,
+        8.0,
+        -13.5,
+        -13.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 95
+    },
+    {
+      "i": 9700,
+      "id": "AcDb3dSolid - 6BD",
+      "xb": [
+        0.0,
+        0.5,
+        -13.5,
+        -13.5,
+        5.5,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 97
+    },
+    {
+      "i": 9800,
+      "id": "AcDb3dSolid - 6BF",
+      "xb": [
+        5.0,
+        5.0,
+        0.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 98
+    },
+    {
+      "i": 9900,
+      "id": "AcDb3dSolid - 6C1",
+      "xb": [
+        6.5,
+        6.5,
+        0.0,
+        0.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 99
+    },
+    {
+      "i": 10200,
+      "id": "AcDb3dSolid - 6C5",
+      "xb": [
+        5.5,
+        5.5,
+        0.0,
+        0.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 102
+    },
+    {
+      "i": 10300,
+      "id": "AcDb3dSolid - 6C5",
+      "xb": [
+        6.5,
+        6.5,
+        0.0,
+        0.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 103
+    },
+    {
+      "i": 11300,
+      "id": "AcDb3dSolid - 6E9",
+      "xb": [
+        8.0,
+        8.0,
+        0.0,
+        0.5,
+        1.0,
+        3.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 113
+    },
+    {
+      "i": 12000,
+      "id": "AcDb3dSolid - 70D",
+      "xb": [
+        8.0,
+        8.0,
+        0.0,
+        0.5,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 120
+    },
+    {
+      "i": 12200,
+      "id": "AcDb3dSolid - 70F",
+      "xb": [
+        2.0,
+        2.5,
+        1.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 122
+    },
+    {
+      "i": 12300,
+      "id": "AcDb3dSolid - 70F",
+      "xb": [
+        2.5,
+        5.0,
+        1.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 123
+    },
+    {
+      "i": 12400,
+      "id": "AcDb3dSolid - 715",
+      "xb": [
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 124
+    },
+    {
+      "i": 12600,
+      "id": "AcDb3dSolid - 74A",
+      "xb": [
+        4.0,
+        5.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 126
+    },
+    {
+      "i": 12700,
+      "id": "AcDb3dSolid - 75A",
+      "xb": [
+        4.5,
+        5.0,
+        -0.5,
+        -0.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 127
+    },
+    {
+      "i": 12800,
+      "id": "AcDb3dSolid - 75E",
+      "xb": [
+        4.0,
+        4.5,
+        -0.5,
+        -0.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 128
+    },
+    {
+      "i": 12900,
+      "id": "AcDb3dSolid - 762",
+      "xb": [
+        4.0,
+        4.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 129
+    },
+    {
+      "i": 13000,
+      "id": "AcDb3dSolid - 766",
+      "xb": [
+        4.0,
+        5.0,
+        -0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 130
+    },
+    {
+      "i": 13200,
+      "id": "AcDb3dSolid - 78B",
+      "xb": [
+        4.0,
+        5.0,
+        -2.0,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 132
+    },
+    {
+      "i": 13400,
+      "id": "AcDb3dSolid - 7AC",
+      "xb": [
+        4.5,
+        5.0,
+        -3.5,
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 134
+    },
+    {
+      "i": 13500,
+      "id": "AcDb3dSolid - 7B4",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 135
+    },
+    {
+      "i": 13600,
+      "id": "AcDb3dSolid - 7D6",
+      "xb": [
+        4.5,
+        5.0,
+        -2.5,
+        -2.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 136
+    },
+    {
+      "i": 13700,
+      "id": "AcDbExtrudedSurface - 7EC",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 137
+    },
+    {
+      "i": 13900,
+      "id": "AcDb3dSolid - 7FA",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 139
+    },
+    {
+      "i": 14000,
+      "id": "AcDb3dSolid - 879",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 140
+    },
+    {
+      "i": 14100,
+      "id": "AcDb3dSolid - 87D",
+      "xb": [
+        4.5,
+        5.0,
+        -2.5,
+        -2.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 141
+    },
+    {
+      "i": 14300,
+      "id": "AcDb3dSolid - 88A",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 143
+    },
+    {
+      "i": 14400,
+      "id": "AcDb3dSolid - 88E",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 144
+    },
+    {
+      "i": 14500,
+      "id": "AcDb3dSolid - 8AB",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 145
+    },
+    {
+      "i": 14600,
+      "id": "AcDb3dSolid - 8AF",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 146
+    },
+    {
+      "i": 14700,
+      "id": "AcDb3dSolid - 8C7",
+      "xb": [
+        4.5,
+        5.0,
+        -2.5,
+        -2.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 147
+    },
+    {
+      "i": 14800,
+      "id": "AcDbExtrudedSurface - 8CE",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 148
+    },
+    {
+      "i": 15000,
+      "id": "AcDb3dSolid - 8D4",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 150
+    },
+    {
+      "i": 15100,
+      "id": "AcDb3dSolid - 8D8",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 151
+    },
+    {
+      "i": 15200,
+      "id": "AcDb3dSolid - 8F0",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 152
+    },
+    {
+      "i": 15300,
+      "id": "AcDb3dSolid - 8F4",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -2.5,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 153
+    },
+    {
+      "i": 15400,
+      "id": "AcDb3dSolid - 902",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 154
+    },
+    {
+      "i": 15500,
+      "id": "AcDb3dSolid - 906",
+      "xb": [
+        4.5,
+        5.0,
+        -3.0,
+        -3.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 155
+    },
+    {
+      "i": 15700,
+      "id": "AcDb3dSolid - 915",
+      "xb": [
+        4.5,
+        5.0,
+        -3.5,
+        -2.5,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 157
+    },
+    {
+      "i": 15800,
+      "id": "AcDb3dSolid - 9EC",
+      "xb": [
+        4.0,
+        5.0,
+        -4.0,
+        -3.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 158
+    },
+    {
+      "i": 15900,
+      "id": "AcDb3dSolid - 9F4",
+      "xb": [
+        4.5,
+        5.0,
+        -4.0,
+        -4.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 159
+    },
+    {
+      "i": 16000,
+      "id": "AcDb3dSolid - 9F8",
+      "xb": [
+        4.0,
+        4.5,
+        -4.0,
+        -4.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 160
+    },
+    {
+      "i": 16100,
+      "id": "AcDb3dSolid - 9FC",
+      "xb": [
+        4.0,
+        4.5,
+        -3.5,
+        -3.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 161
+    },
+    {
+      "i": 16300,
+      "id": "AcDb3dSolid - A10",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 163
+    },
+    {
+      "i": 16400,
+      "id": "AcDb3dSolid - A14",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 164
+    },
+    {
+      "i": 16500,
+      "id": "AcDb3dSolid - A18",
+      "xb": [
+        4.5,
+        5.0,
+        -6.0,
+        -6.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 165
+    },
+    {
+      "i": 16600,
+      "id": "AcDbExtrudedSurface - A1F",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -7.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 166
+    },
+    {
+      "i": 16800,
+      "id": "AcDb3dSolid - A25",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 168
+    },
+    {
+      "i": 16900,
+      "id": "AcDb3dSolid - A29",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -7.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 169
+    },
+    {
+      "i": 17000,
+      "id": "AcDb3dSolid - A36",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 170
+    },
+    {
+      "i": 17100,
+      "id": "AcDb3dSolid - A3A",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 171
+    },
+    {
+      "i": 17200,
+      "id": "AcDb3dSolid - A42",
+      "xb": [
+        4.5,
+        5.0,
+        -6.0,
+        -6.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 172
+    },
+    {
+      "i": 17300,
+      "id": "AcDbExtrudedSurface - A49",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -7.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 173
+    },
+    {
+      "i": 17500,
+      "id": "AcDb3dSolid - A4F",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 175
+    },
+    {
+      "i": 17600,
+      "id": "AcDb3dSolid - A53",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -7.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 176
+    },
+    {
+      "i": 17700,
+      "id": "AcDb3dSolid - A57",
+      "xb": [
+        4.5,
+        5.0,
+        -6.0,
+        -6.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 177
+    },
+    {
+      "i": 17800,
+      "id": "AcDbExtrudedSurface - A5E",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -7.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 178
+    },
+    {
+      "i": 18000,
+      "id": "AcDb3dSolid - A64",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 180
+    },
+    {
+      "i": 18100,
+      "id": "AcDb3dSolid - A68",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -7.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 181
+    },
+    {
+      "i": 18200,
+      "id": "AcDb3dSolid - A70",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 182
+    },
+    {
+      "i": 18300,
+      "id": "AcDb3dSolid - A74",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 183
+    },
+    {
+      "i": 18400,
+      "id": "AcDb3dSolid - A7C",
+      "xb": [
+        4.5,
+        5.0,
+        -6.5,
+        -6.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 184
+    },
+    {
+      "i": 18500,
+      "id": "AcDb3dSolid - A80",
+      "xb": [
+        4.5,
+        5.0,
+        -6.5,
+        -6.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 185
+    },
+    {
+      "i": 18600,
+      "id": "AcDb3dSolid - A84",
+      "xb": [
+        4.5,
+        5.0,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 186
+    },
+    {
+      "i": 18900,
+      "id": "AcDb3dSolid - AE0",
+      "xb": [
+        4.0,
+        5.0,
+        -2.5,
+        -2.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 189
+    },
+    {
+      "i": 19200,
+      "id": "AcDb3dSolid - AEC",
+      "xb": [
+        4.0,
+        5.0,
+        -5.5,
+        -4.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 192
+    },
+    {
+      "i": 19500,
+      "id": "AcDb3dSolid - AF7",
+      "xb": [
+        4.0,
+        5.0,
+        -6.0,
+        -5.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 195
+    },
+    {
+      "i": 19700,
+      "id": "AcDb3dSolid - CBB",
+      "xb": [
+        7.0,
+        7.5,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 197
+    },
+    {
+      "i": 20000,
+      "id": "AcDb3dSolid - CD7",
+      "xb": [
+        7.0,
+        7.5,
+        -2.0,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 200
+    },
+    {
+      "i": 20100,
+      "id": "AcDb3dSolid - CDA",
+      "xb": [
+        7.5,
+        7.5,
+        -2.0,
+        -0.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 201
+    },
+    {
+      "i": 20200,
+      "id": "AcDb3dSolid - CEF",
+      "xb": [
+        7.5,
+        7.5,
+        -3.0,
+        -2.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 202
+    },
+    {
+      "i": 20300,
+      "id": "AcDb3dSolid - D04",
+      "xb": [
+        7.5,
+        7.5,
+        -3.0,
+        -2.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 203
+    },
+    {
+      "i": 20400,
+      "id": "AcDb3dSolid - D2E",
+      "xb": [
+        7.5,
+        7.5,
+        -3.0,
+        -2.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 204
+    },
+    {
+      "i": 20500,
+      "id": "AcDb3dSolid - D52",
+      "xb": [
+        7.5,
+        7.5,
+        -3.5,
+        -2.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 205
+    },
+    {
+      "i": 20600,
+      "id": "AcDb3dSolid - D5A",
+      "xb": [
+        7.0,
+        7.5,
+        -4.0,
+        -3.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 206
+    },
+    {
+      "i": 20800,
+      "id": "AcDb3dSolid - D84",
+      "xb": [
+        7.5,
+        7.5,
+        -7.0,
+        -6.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 208
+    },
+    {
+      "i": 20900,
+      "id": "AcDb3dSolid - D9D",
+      "xb": [
+        7.5,
+        7.5,
+        -7.0,
+        -6.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 209
+    },
+    {
+      "i": 21000,
+      "id": "AcDb3dSolid - DC3",
+      "xb": [
+        7.5,
+        7.5,
+        -7.0,
+        -6.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 210
+    },
+    {
+      "i": 21100,
+      "id": "AcDb3dSolid - DE7",
+      "xb": [
+        7.5,
+        7.5,
+        -7.0,
+        -6.0,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 211
+    },
+    {
+      "i": 21300,
+      "id": "AcDb3dSolid - DF3",
+      "xb": [
+        7.0,
+        7.5,
+        -2.5,
+        -2.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 213
+    },
+    {
+      "i": 21400,
+      "id": "AcDb3dSolid - DF7",
+      "xb": [
+        7.5,
+        7.5,
+        -2.5,
+        -2.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 214
+    },
+    {
+      "i": 21600,
+      "id": "AcDb3dSolid - DFF",
+      "xb": [
+        7.0,
+        7.5,
+        -5.5,
+        -4.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 216
+    },
+    {
+      "i": 21700,
+      "id": "AcDb3dSolid - E02",
+      "xb": [
+        7.5,
+        7.5,
+        -5.5,
+        -4.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 217
+    },
+    {
+      "i": 21900,
+      "id": "AcDb3dSolid - E0A",
+      "xb": [
+        7.0,
+        7.5,
+        -6.0,
+        -5.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 219
+    },
+    {
+      "i": 22000,
+      "id": "AcDb3dSolid - E0E",
+      "xb": [
+        7.5,
+        7.5,
+        -6.0,
+        -5.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 220
+    },
+    {
+      "i": 22100,
+      "id": "AcDb3dSolid - E77",
+      "xb": [
+        9.5,
+        10.5,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 221
+    },
+    {
+      "i": 22200,
+      "id": "AcDb3dSolid - E7F",
+      "xb": [
+        10.0,
+        10.5,
+        -0.5,
+        -0.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 222
+    },
+    {
+      "i": 22300,
+      "id": "AcDb3dSolid - E83",
+      "xb": [
+        9.5,
+        10.0,
+        -0.5,
+        -0.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 223
+    },
+    {
+      "i": 22400,
+      "id": "AcDb3dSolid - E87",
+      "xb": [
+        9.5,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 224
+    },
+    {
+      "i": 22700,
+      "id": "AcDb3dSolid - E93",
+      "xb": [
+        9.5,
+        10.5,
+        -2.0,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 227
+    },
+    {
+      "i": 22900,
+      "id": "AcDb3dSolid - E9A",
+      "xb": [
+        10.0,
+        10.5,
+        -3.5,
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 229
+    },
+    {
+      "i": 23000,
+      "id": "AcDb3dSolid - E9E",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 230
+    },
+    {
+      "i": 23100,
+      "id": "AcDb3dSolid - EA2",
+      "xb": [
+        10.0,
+        10.5,
+        -2.5,
+        -2.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 231
+    },
+    {
+      "i": 23200,
+      "id": "AcDbExtrudedSurface - EA9",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 232
+    },
+    {
+      "i": 23400,
+      "id": "AcDb3dSolid - EAF",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 234
+    },
+    {
+      "i": 23500,
+      "id": "AcDb3dSolid - EB3",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 235
+    },
+    {
+      "i": 23600,
+      "id": "AcDb3dSolid - EB7",
+      "xb": [
+        10.0,
+        10.5,
+        -2.5,
+        -2.5,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 236
+    },
+    {
+      "i": 23800,
+      "id": "AcDb3dSolid - EC4",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 238
+    },
+    {
+      "i": 23900,
+      "id": "AcDb3dSolid - EC8",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        0.5,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 239
+    },
+    {
+      "i": 24000,
+      "id": "AcDb3dSolid - ED5",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 240
+    },
+    {
+      "i": 24100,
+      "id": "AcDb3dSolid - ED9",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 241
+    },
+    {
+      "i": 24200,
+      "id": "AcDb3dSolid - EE1",
+      "xb": [
+        10.0,
+        10.5,
+        -2.5,
+        -2.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 242
+    },
+    {
+      "i": 24300,
+      "id": "AcDbExtrudedSurface - EE8",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 243
+    },
+    {
+      "i": 24500,
+      "id": "AcDb3dSolid - EEE",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 245
+    },
+    {
+      "i": 24600,
+      "id": "AcDb3dSolid - EF2",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 246
+    },
+    {
+      "i": 24700,
+      "id": "AcDb3dSolid - EFA",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 247
+    },
+    {
+      "i": 24800,
+      "id": "AcDb3dSolid - EFE",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -2.5,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 248
+    },
+    {
+      "i": 24900,
+      "id": "AcDb3dSolid - F06",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 249
+    },
+    {
+      "i": 25000,
+      "id": "AcDb3dSolid - F0A",
+      "xb": [
+        10.0,
+        10.5,
+        -3.0,
+        -3.0,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 250
+    },
+    {
+      "i": 25200,
+      "id": "AcDb3dSolid - F12",
+      "xb": [
+        10.0,
+        10.5,
+        -3.5,
+        -2.5,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 252
+    },
+    {
+      "i": 25300,
+      "id": "AcDb3dSolid - F16",
+      "xb": [
+        9.5,
+        10.5,
+        -4.0,
+        -3.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 253
+    },
+    {
+      "i": 25400,
+      "id": "AcDb3dSolid - F1E",
+      "xb": [
+        10.0,
+        10.5,
+        -4.0,
+        -4.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 254
+    },
+    {
+      "i": 25500,
+      "id": "AcDb3dSolid - F22",
+      "xb": [
+        9.5,
+        10.0,
+        -4.0,
+        -4.0,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 255
+    },
+    {
+      "i": 25600,
+      "id": "AcDb3dSolid - F26",
+      "xb": [
+        9.5,
+        10.0,
+        -3.5,
+        -3.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 256
+    },
+    {
+      "i": 25800,
+      "id": "AcDb3dSolid - F2F",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 258
+    },
+    {
+      "i": 25900,
+      "id": "AcDb3dSolid - F33",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 259
+    },
+    {
+      "i": 26000,
+      "id": "AcDb3dSolid - F37",
+      "xb": [
+        10.0,
+        10.5,
+        -6.0,
+        -6.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 260
+    },
+    {
+      "i": 26100,
+      "id": "AcDbExtrudedSurface - F3E",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -7.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 261
+    },
+    {
+      "i": 26300,
+      "id": "AcDb3dSolid - F44",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 263
+    },
+    {
+      "i": 26400,
+      "id": "AcDb3dSolid - F48",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -7.0,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 264
+    },
+    {
+      "i": 26500,
+      "id": "AcDb3dSolid - F55",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 265
+    },
+    {
+      "i": 26700,
+      "id": "AcDb3dSolid - F6A",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 267
+    },
+    {
+      "i": 26800,
+      "id": "AcDb3dSolid - F6E",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 268
+    },
+    {
+      "i": 26900,
+      "id": "AcDb3dSolid - F76",
+      "xb": [
+        10.0,
+        10.5,
+        -6.0,
+        -6.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 269
+    },
+    {
+      "i": 27000,
+      "id": "AcDbExtrudedSurface - F7D",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -7.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 270
+    },
+    {
+      "i": 27200,
+      "id": "AcDb3dSolid - F83",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 272
+    },
+    {
+      "i": 27300,
+      "id": "AcDb3dSolid - F87",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -7.0,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 273
+    },
+    {
+      "i": 27400,
+      "id": "AcDb3dSolid - F8F",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 274
+    },
+    {
+      "i": 27500,
+      "id": "AcDb3dSolid - F93",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 275
+    },
+    {
+      "i": 27600,
+      "id": "AcDb3dSolid - F9B",
+      "xb": [
+        10.0,
+        10.5,
+        -6.5,
+        -6.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 276
+    },
+    {
+      "i": 27700,
+      "id": "AcDb3dSolid - F9F",
+      "xb": [
+        10.0,
+        10.5,
+        -6.5,
+        -6.5,
+        0.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 277
+    },
+    {
+      "i": 27900,
+      "id": "AcDb3dSolid - FA7",
+      "xb": [
+        10.0,
+        10.5,
+        -7.0,
+        -6.0,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 279
+    },
+    {
+      "i": 28100,
+      "id": "AcDb3dSolid - FAF",
+      "xb": [
+        9.5,
+        10.5,
+        -2.5,
+        -2.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 281
+    },
+    {
+      "i": 28400,
+      "id": "AcDb3dSolid - FBB",
+      "xb": [
+        9.5,
+        10.5,
+        -5.5,
+        -4.0,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 284
+    },
+    {
+      "i": 28700,
+      "id": "AcDb3dSolid - FC6",
+      "xb": [
+        9.5,
+        10.5,
+        -6.0,
+        -5.5,
+        0.5,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 287
+    },
+    {
+      "i": 29100,
+      "id": "AcDb3dSolid - 1038",
+      "xb": [
+        0.5,
+        0.5,
+        -12.5,
+        -7.5,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 291
+    },
+    {
+      "i": 29200,
+      "id": "AcDb3dSolid - 1071",
+      "xb": [
+        12.5,
+        13.0,
+        -6.0,
+        -6.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 292
+    },
+    {
+      "i": 29300,
+      "id": "AcDb3dSolid - 1075",
+      "xb": [
+        12.5,
+        13.0,
+        -4.0,
+        -4.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 293
+    },
+    {
+      "i": 29500,
+      "id": "AcDb3dSolid - 107E",
+      "xb": [
+        12.5,
+        13.0,
+        -6.0,
+        -4.0,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 295
+    },
+    {
+      "i": 29600,
+      "id": "AcDb3dSolid - 1083",
+      "xb": [
+        12.5,
+        13.0,
+        -4.0,
+        -4.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 296
+    },
+    {
+      "i": 29700,
+      "id": "AcDb3dSolid - 1087",
+      "xb": [
+        12.5,
+        13.0,
+        -6.0,
+        -6.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 297
+    },
+    {
+      "i": 29800,
+      "id": "AcDb3dSolid - 108C",
+      "xb": [
+        13.0,
+        13.0,
+        -6.0,
+        -4.0,
+        0.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 298
+    },
+    {
+      "i": 29900,
+      "id": "AcDb3dSolid - 1096",
+      "xb": [
+        12.5,
+        12.5,
+        -5.0,
+        -4.0,
+        0.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 299
+    },
+    {
+      "i": 30000,
+      "id": "AcDb3dSolid - 109A",
+      "xb": [
+        12.5,
+        12.5,
+        -6.0,
+        -5.0,
+        0.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 300
+    },
+    {
+      "i": 30300,
+      "id": "AcDb3dSolid - 10D3",
+      "xb": [
+        11.0,
+        12.0,
+        -8.5,
+        -8.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 303
+    },
+    {
+      "i": 30400,
+      "id": "AcDb3dSolid - 10D7",
+      "xb": [
+        11.0,
+        12.0,
+        -9.5,
+        -9.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 304
+    },
+    {
+      "i": 30500,
+      "id": "AcDb3dSolid - 10DF",
+      "xb": [
+        11.0,
+        11.0,
+        -9.5,
+        -8.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 305
+    },
+    {
+      "i": 30600,
+      "id": "AcDb3dSolid - 10E3",
+      "xb": [
+        12.0,
+        12.0,
+        -9.5,
+        -8.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 306
+    },
+    {
+      "i": 30700,
+      "id": "AcDb3dSolid - 110A",
+      "xb": [
+        11.0,
+        11.0,
+        -9.5,
+        -9.0,
+        1.5,
+        2.0
+      ],
+      "fam": "COLOR_RED",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 307
+    },
+    {
+      "i": 30800,
+      "id": "AcDb3dSolid - 111A",
+      "xb": [
+        11.0,
+        11.0,
+        -9.0,
+        -8.5,
+        1.5,
+        2.0
+      ],
+      "fam": "COLOR_RED",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 308
+    },
+    {
+      "i": 30900,
+      "id": "AcDb3dSolid - 1122",
+      "xb": [
+        11.0,
+        11.0,
+        -9.5,
+        -8.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 309
+    },
+    {
+      "i": 31000,
+      "id": "AcDb3dSolid - 1126",
+      "xb": [
+        11.0,
+        12.0,
+        -8.5,
+        -8.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 310
+    },
+    {
+      "i": 31100,
+      "id": "AcDb3dSolid - 112A",
+      "xb": [
+        11.0,
+        12.0,
+        -9.5,
+        -9.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 311
+    },
+    {
+      "i": 31200,
+      "id": "AcDb3dSolid - 112E",
+      "xb": [
+        12.0,
+        12.0,
+        -9.5,
+        -8.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 312
+    },
+    {
+      "i": 31300,
+      "id": "AcDb3dSolid - 1134",
+      "xb": [
+        11.0,
+        12.0,
+        -9.5,
+        -8.5,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 313
+    },
+    {
+      "i": 31400,
+      "id": "AcDb3dSolid - 114A",
+      "xb": [
+        11.0,
+        12.0,
+        -9.5,
+        -9.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 314
+    },
+    {
+      "i": 31600,
+      "id": "AcDb3dSolid - 1155",
+      "xb": [
+        12.0,
+        12.0,
+        -10.0,
+        -9.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 316
+    },
+    {
+      "i": 31700,
+      "id": "AcDb3dSolid - 1175",
+      "xb": [
+        11.0,
+        12.0,
+        -9.5,
+        -9.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 317
+    },
+    {
+      "i": 31900,
+      "id": "AcDb3dSolid - 117D",
+      "xb": [
+        12.0,
+        12.0,
+        -10.5,
+        -9.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 319
+    },
+    {
+      "i": 32000,
+      "id": "AcDb3dSolid - 1181",
+      "xb": [
+        11.0,
+        12.0,
+        -10.5,
+        -9.5,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 320
+    },
+    {
+      "i": 32100,
+      "id": "AcDb3dSolid - 1197",
+      "xb": [
+        11.0,
+        12.0,
+        -10.5,
+        -10.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 321
+    },
+    {
+      "i": 32200,
+      "id": "AcDb3dSolid - 119B",
+      "xb": [
+        11.0,
+        12.0,
+        -11.0,
+        -11.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 322
+    },
+    {
+      "i": 32300,
+      "id": "AcDb3dSolid - 119F",
+      "xb": [
+        11.0,
+        11.0,
+        -11.0,
+        -10.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 323
+    },
+    {
+      "i": 32400,
+      "id": "AcDb3dSolid - 119F",
+      "xb": [
+        11.0,
+        11.0,
+        -11.0,
+        -10.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 324
+    },
+    {
+      "i": 32500,
+      "id": "AcDb3dSolid - 11A2",
+      "xb": [
+        12.0,
+        12.0,
+        -11.0,
+        -10.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 325
+    },
+    {
+      "i": 32600,
+      "id": "AcDb3dSolid - 11A6",
+      "xb": [
+        11.0,
+        11.0,
+        -11.0,
+        -10.5,
+        0.5,
+        1.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 326
+    },
+    {
+      "i": 32700,
+      "id": "AcDb3dSolid - 11C2",
+      "xb": [
+        11.0,
+        12.0,
+        -10.5,
+        -10.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 327
+    },
+    {
+      "i": 32800,
+      "id": "AcDb3dSolid - 11C6",
+      "xb": [
+        11.0,
+        12.0,
+        -11.0,
+        -11.0,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 328
+    },
+    {
+      "i": 32900,
+      "id": "AcDb3dSolid - 11CA",
+      "xb": [
+        12.0,
+        12.0,
+        -11.0,
+        -10.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 329
+    },
+    {
+      "i": 33000,
+      "id": "AcDb3dSolid - 11CE",
+      "xb": [
+        11.0,
+        12.0,
+        -11.0,
+        -10.5,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 330
+    },
+    {
+      "i": 33100,
+      "id": "AcDb3dSolid - 11D2",
+      "xb": [
+        11.0,
+        11.0,
+        -10.0,
+        -9.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 331
+    },
+    {
+      "i": 33200,
+      "id": "AcDb3dSolid - 11D6",
+      "xb": [
+        11.0,
+        11.0,
+        -10.5,
+        -9.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 332
+    },
+    {
+      "i": 33300,
+      "id": "AcDb3dSolid - 11DA",
+      "xb": [
+        11.0,
+        11.0,
+        -11.0,
+        -10.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 333
+    },
+    {
+      "i": 33400,
+      "id": "AcDb3dSolid - 11FC",
+      "xb": [
+        7.0,
+        7.5,
+        -7.5,
+        -7.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 334
+    },
+    {
+      "i": 33500,
+      "id": "AcDb3dSolid - 1200",
+      "xb": [
+        7.0,
+        7.5,
+        -8.0,
+        -8.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 335
+    },
+    {
+      "i": 33600,
+      "id": "AcDb3dSolid - 1204",
+      "xb": [
+        7.0,
+        7.0,
+        -8.0,
+        -7.5,
+        0.0,
+        0.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 336
+    },
+    {
+      "i": 33700,
+      "id": "AcDb3dSolid - 1204",
+      "xb": [
+        7.0,
+        7.0,
+        -8.0,
+        -7.5,
+        1.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 337
+    },
+    {
+      "i": 33800,
+      "id": "AcDb3dSolid - 1207",
+      "xb": [
+        7.5,
+        7.5,
+        -8.0,
+        -7.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 338
+    },
+    {
+      "i": 33900,
+      "id": "AcDb3dSolid - 120B",
+      "xb": [
+        7.0,
+        7.0,
+        -8.0,
+        -7.5,
+        0.5,
+        1.0
+      ],
+      "fam": "COLOR_CYAN",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 339
+    },
+    {
+      "i": 34000,
+      "id": "AcDb3dSolid - 1217",
+      "xb": [
+        7.0,
+        7.0,
+        -8.0,
+        -7.5,
+        1.5,
+        2.0
+      ],
+      "fam": "COLOR_RED",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 340
+    },
+    {
+      "i": 34100,
+      "id": "AcDb3dSolid - 1227",
+      "xb": [
+        7.0,
+        7.0,
+        -8.0,
+        -7.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 341
+    },
+    {
+      "i": 34200,
+      "id": "AcDb3dSolid - 122B",
+      "xb": [
+        7.0,
+        7.5,
+        -7.5,
+        -7.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 342
+    },
+    {
+      "i": 34300,
+      "id": "AcDb3dSolid - 122F",
+      "xb": [
+        7.0,
+        7.5,
+        -8.0,
+        -8.0,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 343
+    },
+    {
+      "i": 34400,
+      "id": "AcDb3dSolid - 1233",
+      "xb": [
+        7.5,
+        7.5,
+        -8.0,
+        -7.5,
+        1.5,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 344
+    },
+    {
+      "i": 34500,
+      "id": "AcDb3dSolid - 1237",
+      "xb": [
+        7.0,
+        7.5,
+        -8.0,
+        -7.5,
+        2.0,
+        2.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 345
+    },
+    {
+      "i": 34600,
+      "id": "AcDb3dSolid - 1251",
+      "xb": [
+        1.5,
+        2.4,
+        -14.2,
+        -14.2,
+        0.0,
+        1.6
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 346
+    },
+    {
+      "i": 34700,
+      "id": "AcDb3dSolid - 1251",
+      "xb": [
+        12.0,
+        12.0,
+        -12.0,
+        -11.0,
+        0.0,
+        1.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 347
+    },
+    {
+      "i": 34800,
+      "id": "AcDb3dSolid - 126F",
+      "xb": [
+        1.5,
+        1.5,
+        -14.2,
+        -13.2,
+        1.6,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 348
+    },
+    {
+      "i": 34900,
+      "id": "AcDb3dSolid - 126F",
+      "xb": [
+        11.0,
+        12.0,
+        -12.0,
+        -12.0,
+        1.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 349
+    },
+    {
+      "i": 35000,
+      "id": "AcDb3dSolid - 12A1",
+      "xb": [
+        11.0,
+        12.0,
+        -12.0,
+        -12.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 350
+    },
+    {
+      "i": 35100,
+      "id": "AcDb3dSolid - 12A5",
+      "xb": [
+        11.0,
+        12.0,
+        -13.0,
+        -13.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 351
+    },
+    {
+      "i": 35200,
+      "id": "AcDb3dSolid - 12A9",
+      "xb": [
+        12.0,
+        12.0,
+        -13.0,
+        -12.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 352
+    },
+    {
+      "i": 35300,
+      "id": "AcDb3dSolid - 12B9",
+      "xb": [
+        11.0,
+        12.0,
+        -13.0,
+        -12.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 353
+    },
+    {
+      "i": 35400,
+      "id": "AcDb3dSolid - 12DD",
+      "xb": [
+        11.0,
+        11.0,
+        -12.5,
+        -12.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 354
+    },
+    {
+      "i": 35500,
+      "id": "AcDb3dSolid - 12E1",
+      "xb": [
+        11.0,
+        11.0,
+        -13.0,
+        -12.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 355
+    },
+    {
+      "i": 35600,
+      "id": "AcDb3dSolid - 12E5",
+      "xb": [
+        11.0,
+        12.0,
+        -9.5,
+        -8.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 356
+    },
+    {
+      "i": 35700,
+      "id": "AcDb3dSolid - 12E9",
+      "xb": [
+        11.0,
+        12.0,
+        -10.5,
+        -9.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 357
+    },
+    {
+      "i": 35800,
+      "id": "AcDb3dSolid - 12ED",
+      "xb": [
+        11.0,
+        12.0,
+        -11.0,
+        -10.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 358
+    },
+    {
+      "i": 35900,
+      "id": "AcDb3dSolid - 12F1",
+      "xb": [
+        11.0,
+        12.0,
+        -13.0,
+        -12.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 359
+    },
+    {
+      "i": 36000,
+      "id": "AcDb3dSolid - 1340",
+      "xb": [
+        11.0,
+        11.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 360
+    },
+    {
+      "i": 36100,
+      "id": "AcDb3dSolid - 1344",
+      "xb": [
+        10.0,
+        11.0,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 361
+    },
+    {
+      "i": 36200,
+      "id": "AcDb3dSolid - 1348",
+      "xb": [
+        10.0,
+        10.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 362
+    },
+    {
+      "i": 36300,
+      "id": "AcDb3dSolid - 134C",
+      "xb": [
+        10.0,
+        11.0,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 363
+    },
+    {
+      "i": 36400,
+      "id": "AcDb3dSolid - 1350",
+      "xb": [
+        10.0,
+        11.0,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 364
+    },
+    {
+      "i": 36500,
+      "id": "AcDb3dSolid - 1354",
+      "xb": [
+        10.0,
+        11.0,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 365
+    },
+    {
+      "i": 36600,
+      "id": "AcDb3dSolid - 1365",
+      "xb": [
+        10.0,
+        10.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 366
+    },
+    {
+      "i": 36700,
+      "id": "AcDb3dSolid - 1369",
+      "xb": [
+        9.5,
+        10.0,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 367
+    },
+    {
+      "i": 36800,
+      "id": "AcDb3dSolid - 136D",
+      "xb": [
+        9.5,
+        9.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 368
+    },
+    {
+      "i": 36900,
+      "id": "AcDb3dSolid - 1371",
+      "xb": [
+        9.5,
+        10.0,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 369
+    },
+    {
+      "i": 37000,
+      "id": "AcDb3dSolid - 1375",
+      "xb": [
+        9.5,
+        10.0,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 370
+    },
+    {
+      "i": 37100,
+      "id": "AcDb3dSolid - 1379",
+      "xb": [
+        9.5,
+        10.0,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 371
+    },
+    {
+      "i": 37200,
+      "id": "AcDb3dSolid - 138A",
+      "xb": [
+        9.5,
+        9.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 372
+    },
+    {
+      "i": 37300,
+      "id": "AcDb3dSolid - 138E",
+      "xb": [
+        8.5,
+        9.5,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 373
+    },
+    {
+      "i": 37400,
+      "id": "AcDb3dSolid - 1392",
+      "xb": [
+        8.5,
+        8.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 374
+    },
+    {
+      "i": 37500,
+      "id": "AcDb3dSolid - 1396",
+      "xb": [
+        8.5,
+        9.5,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 375
+    },
+    {
+      "i": 37600,
+      "id": "AcDb3dSolid - 139A",
+      "xb": [
+        8.5,
+        9.5,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 376
+    },
+    {
+      "i": 37700,
+      "id": "AcDb3dSolid - 139E",
+      "xb": [
+        8.5,
+        9.5,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 377
+    },
+    {
+      "i": 37800,
+      "id": "AcDb3dSolid - 13AF",
+      "xb": [
+        8.5,
+        8.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 378
+    },
+    {
+      "i": 37900,
+      "id": "AcDb3dSolid - 13B3",
+      "xb": [
+        7.5,
+        8.5,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 379
+    },
+    {
+      "i": 38000,
+      "id": "AcDb3dSolid - 13B7",
+      "xb": [
+        7.5,
+        7.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 380
+    },
+    {
+      "i": 38100,
+      "id": "AcDb3dSolid - 13BB",
+      "xb": [
+        7.5,
+        8.5,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 381
+    },
+    {
+      "i": 38200,
+      "id": "AcDb3dSolid - 13BF",
+      "xb": [
+        7.5,
+        8.5,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 382
+    },
+    {
+      "i": 38300,
+      "id": "AcDb3dSolid - 13C3",
+      "xb": [
+        7.5,
+        8.5,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 383
+    },
+    {
+      "i": 38400,
+      "id": "AcDb3dSolid - 13F9",
+      "xb": [
+        7.5,
+        7.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 384
+    },
+    {
+      "i": 38500,
+      "id": "AcDb3dSolid - 13FD",
+      "xb": [
+        7.0,
+        7.5,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 385
+    },
+    {
+      "i": 38600,
+      "id": "AcDb3dSolid - 1401",
+      "xb": [
+        7.0,
+        7.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 386
+    },
+    {
+      "i": 38700,
+      "id": "AcDb3dSolid - 1405",
+      "xb": [
+        7.0,
+        7.5,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 387
+    },
+    {
+      "i": 38800,
+      "id": "AcDb3dSolid - 1409",
+      "xb": [
+        7.0,
+        7.5,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 388
+    },
+    {
+      "i": 38900,
+      "id": "AcDb3dSolid - 140D",
+      "xb": [
+        7.0,
+        7.5,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 389
+    },
+    {
+      "i": 39000,
+      "id": "AcDb3dSolid - 141E",
+      "xb": [
+        7.0,
+        7.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 390
+    },
+    {
+      "i": 39100,
+      "id": "AcDb3dSolid - 1422",
+      "xb": [
+        6.0,
+        7.0,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 391
+    },
+    {
+      "i": 39200,
+      "id": "AcDb3dSolid - 1426",
+      "xb": [
+        6.0,
+        6.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 392
+    },
+    {
+      "i": 39300,
+      "id": "AcDb3dSolid - 142A",
+      "xb": [
+        6.0,
+        7.0,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 393
+    },
+    {
+      "i": 39400,
+      "id": "AcDb3dSolid - 142E",
+      "xb": [
+        6.0,
+        7.0,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 394
+    },
+    {
+      "i": 39500,
+      "id": "AcDb3dSolid - 1432",
+      "xb": [
+        6.0,
+        7.0,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 395
+    },
+    {
+      "i": 39600,
+      "id": "AcDb3dSolid - 1443",
+      "xb": [
+        6.0,
+        6.0,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 396
+    },
+    {
+      "i": 39700,
+      "id": "AcDb3dSolid - 1447",
+      "xb": [
+        5.5,
+        6.0,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 397
+    },
+    {
+      "i": 39800,
+      "id": "AcDb3dSolid - 144B",
+      "xb": [
+        5.5,
+        5.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 398
+    },
+    {
+      "i": 39900,
+      "id": "AcDb3dSolid - 144F",
+      "xb": [
+        5.5,
+        6.0,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 399
+    },
+    {
+      "i": 40000,
+      "id": "AcDb3dSolid - 1453",
+      "xb": [
+        5.5,
+        6.0,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 400
+    },
+    {
+      "i": 40100,
+      "id": "AcDb3dSolid - 1457",
+      "xb": [
+        5.5,
+        6.0,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 401
+    },
+    {
+      "i": 40300,
+      "id": "AcDb3dSolid - 146C",
+      "xb": [
+        4.5,
+        5.5,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 403
+    },
+    {
+      "i": 40400,
+      "id": "AcDb3dSolid - 1470",
+      "xb": [
+        4.5,
+        4.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 404
+    },
+    {
+      "i": 40500,
+      "id": "AcDb3dSolid - 1474",
+      "xb": [
+        4.5,
+        5.5,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 405
+    },
+    {
+      "i": 40600,
+      "id": "AcDb3dSolid - 1478",
+      "xb": [
+        4.5,
+        5.5,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 406
+    },
+    {
+      "i": 40700,
+      "id": "AcDb3dSolid - 147C",
+      "xb": [
+        4.5,
+        5.5,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 407
+    },
+    {
+      "i": 40800,
+      "id": "AcDb3dSolid - 148C",
+      "xb": [
+        4.5,
+        4.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 408
+    },
+    {
+      "i": 40900,
+      "id": "AcDb3dSolid - 1490",
+      "xb": [
+        3.5,
+        4.5,
+        -13.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 409
+    },
+    {
+      "i": 41000,
+      "id": "AcDb3dSolid - 1494",
+      "xb": [
+        3.5,
+        3.5,
+        -14.0,
+        -13.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 410
+    },
+    {
+      "i": 41100,
+      "id": "AcDb3dSolid - 1498",
+      "xb": [
+        3.5,
+        4.5,
+        -14.0,
+        -14.0,
+        0.0,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 411
+    },
+    {
+      "i": 41200,
+      "id": "AcDb3dSolid - 149C",
+      "xb": [
+        3.5,
+        4.5,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 412
+    },
+    {
+      "i": 41300,
+      "id": "AcDb3dSolid - 14A0",
+      "xb": [
+        3.5,
+        4.5,
+        -14.0,
+        -13.0,
+        2.5,
+        2.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 413
+    },
+    {
+      "i": 41400,
+      "id": "AcDb3dSolid - 14B5",
+      "xb": [
+        3.0,
+        3.5,
+        -13.0,
+        -13.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 414
+    },
+    {
+      "i": 41500,
+      "id": "AcDb3dSolid - 14B9",
+      "xb": [
+        3.0,
+        3.5,
+        -14.0,
+        -14.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 415
+    },
+    {
+      "i": 41600,
+      "id": "AcDb3dSolid - 14BD",
+      "xb": [
+        3.5,
+        3.5,
+        -14.0,
+        -13.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 416
+    },
+    {
+      "i": 41700,
+      "id": "AcDb3dSolid - 14C1",
+      "xb": [
+        3.0,
+        3.5,
+        -14.0,
+        -13.0,
+        1.5,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 417
+    },
+    {
+      "i": 41800,
+      "id": "AcDb3dSolid - 14C5",
+      "xb": [
+        3.0,
+        3.0,
+        -13.5,
+        -13.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 418
+    },
+    {
+      "i": 41900,
+      "id": "AcDb3dSolid - 14C9",
+      "xb": [
+        3.0,
+        3.0,
+        -14.0,
+        -13.5,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "X_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "x1==x2，X 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 419
+    },
+    {
+      "i": 42000,
+      "id": "AcDb3dSolid - 14CD",
+      "xb": [
+        3.0,
+        3.5,
+        -14.0,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 420
+    },
+    {
+      "i": 42100,
+      "id": "AcDb3dSolid - 151E",
+      "xb": [
+        5.0,
+        5.5,
+        -11.5,
+        -11.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 421
+    },
+    {
+      "i": 42200,
+      "id": "AcDb3dSolid - 1522",
+      "xb": [
+        5.0,
+        5.5,
+        -9.5,
+        -9.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 422
+    },
+    {
+      "i": 42300,
+      "id": "AcDb3dSolid - 1526",
+      "xb": [
+        4.0,
+        4.5,
+        -11.5,
+        -11.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 423
+    },
+    {
+      "i": 42400,
+      "id": "AcDb3dSolid - 152A",
+      "xb": [
+        4.0,
+        4.5,
+        -9.5,
+        -9.5,
+        0.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 424
+    },
+    {
+      "i": 42500,
+      "id": "AcDb3dSolid - 1536",
+      "xb": [
+        3.0,
+        4.5,
+        -11.5,
+        -9.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 425
+    },
+    {
+      "i": 42600,
+      "id": "AcDb3dSolid - 153A",
+      "xb": [
+        5.0,
+        6.5,
+        -11.5,
+        -9.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 426
+    },
+    {
+      "i": 42700,
+      "id": "AcDb3dSolid - 153E",
+      "xb": [
+        7.5,
+        8.5,
+        -11.5,
+        -9.5,
+        1.0,
+        1.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 427
+    },
+    {
+      "i": 42800,
+      "id": "AcDb3dSolid - 154C",
+      "xb": [
+        12.5,
+        13.5,
+        -6.5,
+        1.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 428
+    },
+    {
+      "i": 42900,
+      "id": "AcDb3dSolid - 1550",
+      "xb": [
+        12.5,
+        13.5,
+        -14.5,
+        -9.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 429
+    },
+    {
+      "i": 43000,
+      "id": "AcDb3dSolid - 1554",
+      "xb": [
+        12.5,
+        13.0,
+        -9.0,
+        -6.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 430
+    },
+    {
+      "i": 43100,
+      "id": "AcDb3dSolid - 1558",
+      "xb": [
+        11.0,
+        12.5,
+        -14.5,
+        0.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 431
+    },
+    {
+      "i": 43200,
+      "id": "AcDb3dSolid - 1558",
+      "xb": [
+        11.0,
+        12.5,
+        -16.5,
+        -14.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 432
+    },
+    {
+      "i": 43300,
+      "id": "AcDb3dSolid - 155C",
+      "xb": [
+        8.0,
+        11.0,
+        -14.5,
+        1.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 433
+    },
+    {
+      "i": 43400,
+      "id": "AcDb3dSolid - 155C",
+      "xb": [
+        8.0,
+        11.0,
+        -16.5,
+        -14.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 434
+    },
+    {
+      "i": 43500,
+      "id": "AcDb3dSolid - 1564",
+      "xb": [
+        5.0,
+        8.0,
+        -14.5,
+        0.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 435
+    },
+    {
+      "i": 43600,
+      "id": "AcDb3dSolid - 1564",
+      "xb": [
+        5.0,
+        8.0,
+        -16.5,
+        -14.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 436
+    },
+    {
+      "i": 43700,
+      "id": "AcDb3dSolid - 1568",
+      "xb": [
+        2.0,
+        2.5,
+        -13.0,
+        1.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 437
+    },
+    {
+      "i": 43800,
+      "id": "AcDb3dSolid - 1568",
+      "xb": [
+        2.5,
+        5.0,
+        -14.5,
+        1.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 438
+    },
+    {
+      "i": 43900,
+      "id": "AcDb3dSolid - 1568",
+      "xb": [
+        2.0,
+        5.0,
+        -16.5,
+        -14.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 439
+    },
+    {
+      "i": 44000,
+      "id": "AcDb3dSolid - 1568",
+      "xb": [
+        1.8,
+        2.5,
+        -14.5,
+        -13.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 440
+    },
+    {
+      "i": 44100,
+      "id": "AcDb3dSolid - 156C",
+      "xb": [
+        0.0,
+        2.0,
+        -13.0,
+        0.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 441
+    },
+    {
+      "i": 44200,
+      "id": "AcDb3dSolid - 156C",
+      "xb": [
+        0.0,
+        2.0,
+        -16.5,
+        -14.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 442
+    },
+    {
+      "i": 44300,
+      "id": "AcDb3dSolid - 156C",
+      "xb": [
+        0.5,
+        1.8,
+        -14.5,
+        -13.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 443
+    },
+    {
+      "i": 44400,
+      "id": "AcDb3dSolid - 156C",
+      "xb": [
+        0.0,
+        0.5,
+        -14.5,
+        -13.0,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 444
+    },
+    {
+      "i": 44500,
+      "id": "AcDb3dSolid - 1570",
+      "xb": [
+        12.5,
+        13.0,
+        -16.5,
+        -14.5,
+        6.0,
+        6.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 445
+    },
+    {
+      "i": 44600,
+      "id": "AcDb3dSolid - 1574",
+      "xb": [
+        12.5,
+        13.5,
+        -6.5,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 446
+    },
+    {
+      "i": 44700,
+      "id": "AcDb3dSolid - 1578",
+      "xb": [
+        12.5,
+        13.5,
+        -14.5,
+        -9.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 447
+    },
+    {
+      "i": 44800,
+      "id": "AcDb3dSolid - 157C",
+      "xb": [
+        12.5,
+        13.0,
+        -9.0,
+        -6.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 448
+    },
+    {
+      "i": 44900,
+      "id": "AcDb3dSolid - 1580",
+      "xb": [
+        11.0,
+        12.5,
+        -14.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 449
+    },
+    {
+      "i": 45000,
+      "id": "AcDb3dSolid - 1580",
+      "xb": [
+        11.0,
+        12.5,
+        -16.5,
+        -14.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 450
+    },
+    {
+      "i": 45100,
+      "id": "AcDb3dSolid - 1584",
+      "xb": [
+        8.0,
+        11.0,
+        -14.5,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 451
+    },
+    {
+      "i": 45200,
+      "id": "AcDb3dSolid - 1584",
+      "xb": [
+        8.0,
+        11.0,
+        -16.5,
+        -14.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 452
+    },
+    {
+      "i": 45300,
+      "id": "AcDb3dSolid - 158C",
+      "xb": [
+        5.0,
+        8.0,
+        -14.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 453
+    },
+    {
+      "i": 45400,
+      "id": "AcDb3dSolid - 158C",
+      "xb": [
+        5.0,
+        8.0,
+        -16.5,
+        -14.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 454
+    },
+    {
+      "i": 45500,
+      "id": "AcDb3dSolid - 1590",
+      "xb": [
+        2.0,
+        2.5,
+        -13.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 455
+    },
+    {
+      "i": 45600,
+      "id": "AcDb3dSolid - 1590",
+      "xb": [
+        2.5,
+        5.0,
+        -14.5,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 456
+    },
+    {
+      "i": 45700,
+      "id": "AcDb3dSolid - 1590",
+      "xb": [
+        2.0,
+        5.0,
+        -16.5,
+        -14.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 457
+    },
+    {
+      "i": 45800,
+      "id": "AcDb3dSolid - 1590",
+      "xb": [
+        1.8,
+        2.5,
+        -14.5,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 458
+    },
+    {
+      "i": 45900,
+      "id": "AcDb3dSolid - 1594",
+      "xb": [
+        0.0,
+        2.0,
+        -13.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 459
+    },
+    {
+      "i": 46000,
+      "id": "AcDb3dSolid - 1594",
+      "xb": [
+        0.0,
+        2.0,
+        -16.5,
+        -14.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 460
+    },
+    {
+      "i": 46100,
+      "id": "AcDb3dSolid - 1594",
+      "xb": [
+        0.5,
+        1.8,
+        -14.5,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 461
+    },
+    {
+      "i": 46200,
+      "id": "AcDb3dSolid - 1594",
+      "xb": [
+        0.0,
+        0.5,
+        -14.5,
+        -13.0,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 462
+    },
+    {
+      "i": 46300,
+      "id": "AcDb3dSolid - 1598",
+      "xb": [
+        12.5,
+        13.0,
+        -16.5,
+        -14.5,
+        0.0,
+        0.0
+      ],
+      "fam": "WHITE",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 463
+    },
+    {
+      "i": 47100,
+      "id": "AcDb3dSolid - 1617",
+      "xb": [
+        0.5,
+        2.0,
+        -16.5,
+        -16.5,
+        4.0,
+        4.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 471
+    },
+    {
+      "i": 48000,
+      "id": "AcDb3dSolid - 16AC",
+      "xb": [
+        4.5,
+        6.0,
+        -16.5,
+        -16.5,
+        4.0,
+        4.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 480
+    },
+    {
+      "i": 48100,
+      "id": "AcDb3dSolid - 198A",
+      "xb": [
+        7.5,
+        8.0,
+        -16.0,
+        -16.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 481
+    },
+    {
+      "i": 48200,
+      "id": "AcDb3dSolid - 1992",
+      "xb": [
+        7.5,
+        8.0,
+        -16.0,
+        -16.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 482
+    },
+    {
+      "i": 48300,
+      "id": "AcDb3dSolid - 19B6",
+      "xb": [
+        0.0,
+        0.5,
+        -16.0,
+        -16.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 483
+    },
+    {
+      "i": 48400,
+      "id": "AcDb3dSolid - 19BE",
+      "xb": [
+        0.0,
+        0.5,
+        -16.0,
+        -16.0,
+        0.0,
+        1.5
+      ],
+      "fam": "WHITE",
+      "role": "Y_CONST_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "y1==y2，Y 常量零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 484
+    },
+    {
+      "i": 48500,
+      "id": "ding",
+      "xb": [
+        1.5,
+        1.6,
+        -14.0,
+        -13.8,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 485
+    },
+    {
+      "i": 48600,
+      "id": "ding",
+      "xb": [
+        1.5,
+        1.6,
+        -13.6,
+        -13.4,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 486
+    },
+    {
+      "i": 48700,
+      "id": "ding",
+      "xb": [
+        1.5,
+        2.4,
+        -14.2,
+        -14.0,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 487
+    },
+    {
+      "i": 48800,
+      "id": "ding",
+      "xb": [
+        1.5,
+        2.4,
+        -13.8,
+        -13.6,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 488
+    },
+    {
+      "i": 48900,
+      "id": "ding",
+      "xb": [
+        1.5,
+        2.4,
+        -13.4,
+        -13.2,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 489
+    },
+    {
+      "i": 49000,
+      "id": "ding",
+      "xb": [
+        1.8,
+        1.9,
+        -14.0,
+        -13.8,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 490
+    },
+    {
+      "i": 49100,
+      "id": "ding",
+      "xb": [
+        1.8,
+        1.9,
+        -13.6,
+        -13.4,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 491
+    },
+    {
+      "i": 49200,
+      "id": "ding",
+      "xb": [
+        2.1,
+        2.2,
+        -14.0,
+        -13.8,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 492
+    },
+    {
+      "i": 49300,
+      "id": "ding",
+      "xb": [
+        2.1,
+        2.2,
+        -13.6,
+        -13.4,
+        2.3,
+        2.3
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 493
+    },
+    {
+      "i": 49400,
+      "id": "ding",
+      "xb": [
+        11.0,
+        11.5,
+        -11.5,
+        -11.0,
+        2.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 494
+    },
+    {
+      "i": 49500,
+      "id": "ding",
+      "xb": [
+        11.0,
+        12.0,
+        -12.0,
+        -11.5,
+        2.5,
+        2.5
+      ],
+      "fam": "METAL_GRAY",
+      "role": "HORIZONTAL_PLANE",
+      "conf": "GEOMETRY",
+      "reason": "z1==z2，水平零厚度面",
+      "kind": "SURFACE",
+      "sourceObstIndex": 495
+    }
+  ],
+  "holes": [],
+  "meshBoundaryVents": [
+    {
+      "id": "Mesh Vent: Mesh02 [XMIN]",
+      "xb": [
+        -1.0,
+        -1.0,
+        -13.0,
+        1.5,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh02 [YMAX]",
+      "xb": [
+        -1.0,
+        2.5,
+        1.5,
+        1.5,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh02 [ZMAX]",
+      "xb": [
+        -1.0,
+        2.5,
+        -13.0,
+        1.5,
+        6.5,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh03 [XMAX]",
+      "xb": [
+        14.0,
+        14.0,
+        -14.5,
+        1.5,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh03 [YMAX]",
+      "xb": [
+        2.5,
+        14.0,
+        1.5,
+        1.5,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh03 [ZMAX]",
+      "xb": [
+        2.5,
+        14.0,
+        -14.5,
+        1.5,
+        6.5,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh04 [XMAX]",
+      "xb": [
+        14.0,
+        14.0,
+        -17.0,
+        -14.5,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh04 [XMIN]",
+      "xb": [
+        -1.0,
+        -1.0,
+        -17.0,
+        -14.5,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh04 [YMIN]",
+      "xb": [
+        -1.0,
+        14.0,
+        -17.0,
+        -17.0,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh04 [ZMAX]",
+      "xb": [
+        -1.0,
+        14.0,
+        -17.0,
+        -14.5,
+        6.5,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh05 [ZMAX]",
+      "xb": [
+        0.5,
+        2.5,
+        -14.5,
+        -13.0,
+        6.5,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh06 [XMIN]",
+      "xb": [
+        -1.0,
+        -1.0,
+        -14.5,
+        -13.0,
+        0.0,
+        6.5
+      ]
+    },
+    {
+      "id": "Mesh Vent: Mesh06 [ZMAX]",
+      "xb": [
+        -1.0,
+        0.5,
+        -14.5,
+        -13.0,
+        6.5,
+        6.5
+      ]
+    }
+  ],
+  "surfaceDefs": {
+    "ke": {
+      "color": "GRAY 60",
+      "hrrpua": null,
+      "ramp_q": null,
+      "tmp_front": null
+    },
+    "Global02": {
+      "color": "RED",
+      "hrrpua": null,
+      "ramp_q": null,
+      "tmp_front": null
+    },
+    "burner": {
+      "color": "RED",
+      "hrrpua": 560000.0,
+      "ramp_q": null,
+      "tmp_front": 300.0
+    },
+    "Global08": {
+      "color": "WHITE",
+      "hrrpua": null,
+      "ramp_q": null,
+      "tmp_front": null
+    },
+    "Global09": {
+      "color": "CYAN",
+      "hrrpua": null,
+      "ramp_q": null,
+      "tmp_front": null
+    },
+    "Global10": {
+      "color": "RED",
+      "hrrpua": null,
+      "ramp_q": null,
+      "tmp_front": null
+    },
+    "Global11": {
+      "color": "YELLOW",
+      "hrrpua": null,
+      "ramp_q": null,
+      "tmp_front": null
+    }
+  },
+  "fireSourceVents": [
+    {
+      "xb": [
+        1.677218,
+        2.177218,
+        -14.024556,
+        -13.524556,
+        1.0,
+        1.0
+      ],
+      "center": [
+        1.9272179999999999,
+        -13.774556,
+        1.0
+      ]
+    }
+  ],
+  "stats": {
+    "obstTotal": 496,
+    "solidCount": 117,
+    "surfaceCount": 379,
+    "holeCount": 0,
+    "meshBoundaryVentCount": 12,
+    "familyCount": {
+      "INERT": 1,
+      "METAL_GRAY": 30,
+      "WHITE": 413,
+      "COLOR_RED": 6,
+      "COLOR_CYAN": 42,
+      "COLOR_YELLOW": 4
+    }
+  },
+  "semanticVerification": {
+    "status": "UNVERIFIED",
+    "reason": "源 FDS 的 OBST ID 为 AutoCAD 通用 ID（AcDb3dSolid-*），无 cabinet_id/room_wall/door/window 语义字段。本文件的 role 仅为几何形态分类（水平面/常量面/实体），不代表已确认的墙/门/窗/柜体身份，需与 Smokeview 截图对照核验。",
+    "confirmedFacts": [
+      "10 个起火柜锚点位置来自 VENT SURF_ID='burner' 的 XB 几何中心（真实）",
+      "计算域包络来自 &MESH（真实）",
+      "所有 OBST 坐标 1:1 来自源文件（真实）"
+    ]
+  },
+  "sceneMode": "windowed",
+  "scenarioId": "HV-02-140MW",
+  "geometryEvents": [],
+  "deviceActivationTimesS": {
+    "THCP": 0.0,
+    "THCP01": 0.0,
+    "THCP02": 0.0,
+    "THCP03": 0.0,
+    "THCP04": 0.0,
+    "THCP05": 0.0,
+    "THCP06": 0.0,
+    "THCP07": 0.0,
+    "THCP08": 0.0,
+    "THCP09": 0.0,
+    "THCP10": 0.0,
+    "THCP11": 0.0,
+    "THCP12": 0.0,
+    "THCP13": 0.0,
+    "THCP14": 0.0,
+    "THCP15": 0.0,
+    "THCP16": 0.0,
+    "THCP17": 0.0,
+    "THCP18": 0.0,
+    "THCP19": 0.0,
+    "THCP20": 0.0,
+    "THCP21": 0.0,
+    "THCP22": 0.0,
+    "THCP23": 0.0,
+    "THCP24": 0.0,
+    "THCP25": 0.0,
+    "THCP26": 0.0,
+    "THCP27": 0.0,
+    "THCP28": 0.0,
+    "THCP29": 0.0,
+    "THCP30": 0.0,
+    "THCP31": 0.0,
+    "THCP32": 0.0,
+    "THCP33": 0.0,
+    "THCP34": 0.0,
+    "THCP35": 0.0,
+    "THCP36": 0.0,
+    "THCP37": 0.0,
+    "THCP38": 0.0,
+    "THCP39": 0.0,
+    "THCP40": 0.0,
+    "THCP41": 0.0,
+    "THCP42": 0.0,
+    "THCP43": 0.0,
+    "THCP44": 0.0,
+    "THCP45": 0.0,
+    "THCP46": 0.0,
+    "THCP47": 0.0,
+    "THCP48": 0.0,
+    "THCP49": 0.0,
+    "THCP50": 0.0,
+    "THCP51": 0.0,
+    "THCP52": 0.0,
+    "THCP53": 0.0,
+    "THCP54": 0.0,
+    "THCP55": 0.0,
+    "THCP56": 0.0,
+    "THCP57": 0.0,
+    "THCP58": 0.0,
+    "THCP59": 0.0,
+    "THCP60": 0.0,
+    "THCP61": 0.0,
+    "THCP62": 0.0,
+    "THCP63": 0.0,
+    "THCP64": 0.0,
+    "THCP65": 0.0,
+    "THCP66": 0.0,
+    "THCP67": 0.0,
+    "THCP68": 0.0,
+    "THCP69": 0.0,
+    "THCP70": 0.0,
+    "THCP71": 0.0,
+    "THCP72": 0.0,
+    "THCP73": 0.0,
+    "THCP74": 0.0,
+    "THCP75": 0.0,
+    "THCP76": 0.0,
+    "THCP77": 0.0,
+    "THCP78": 0.0,
+    "THCP79": 0.0,
+    "THCP80": 0.0,
+    "THCP81": 0.0,
+    "THCP82": 0.0,
+    "THCP83": 0.0,
+    "THCP84": 0.0,
+    "THCP85": 0.0,
+    "THCP86": 0.0,
+    "THCP87": 0.0,
+    "THCP88": 0.0,
+    "THCP89": 0.0,
+    "THCP90": 0.0,
+    "THCP91": 0.0,
+    "THCP92": 0.0,
+    "THCP93": 0.0,
+    "THCP94": 0.0,
+    "THCP95": 0.0,
+    "THCP96": 0.0,
+    "THCP97": 0.0,
+    "THCP98": 0.0,
+    "THCP99": 0.0,
+    "THCP100": 0.0,
+    "THCP101": 0.0,
+    "THCP102": 0.0,
+    "THCP103": 0.0,
+    "THCP104": 0.0,
+    "THCP105": 0.0,
+    "THCP106": 0.0,
+    "THCP107": 0.0,
+    "THCP108": 0.0,
+    "THCP109": 0.0,
+    "THCP110": 0.0,
+    "THCP111": 0.0,
+    "THCP112": 0.0,
+    "THCP113": 0.0,
+    "THCP114": 0.0,
+    "THCP115": 0.0,
+    "THCP116": 0.0,
+    "THCP117": 0.0,
+    "THCP118": 0.0,
+    "THCP119": 0.0,
+    "THCP120": 0.0,
+    "THCP121": 0.0,
+    "THCP122": 0.0,
+    "THCP123": 0.0,
+    "THCP124": 0.0,
+    "THCP125": 0.0,
+    "TIMER->OUT": 1.0
+  },
+  "sourceSha256": "14c2d32613ba49c79471c7096fe8b18e744b188c248203dc918e306a46fe49cb"
+}

@@ -6,6 +6,8 @@ import {THERMAL_MIN_C,THERMAL_MAX_C} from '../data/palettes/thermal';
 import {VOLUME_VERT} from './ThermalVolume';
 interface Volume {asset:string;maskAsset:string;ni:number;nj:number;nk:number;meshXb:[number,number,number,number,number,number];baseC:number;perLsbC:number;frames:RleFrame[];}
 interface Dataset {scenarioId:string;volumes:Volume[];data:Record<string,Uint8Array>;}
+// __frT: 公网链路上大体积 .s3d/掩码偶发传输中断，对有恢复可能的网络错误做有限重试（3 次，退避 500/1500/3000ms）
+async function __frT(u:string,g:AbortSignal,L:string):Promise<Response>{const d=[500,1500,3000];let e:unknown=null;for(let a=0;a<=d.length;a++){if(g.aborted)throw new DOMException('Aborted','AbortError');try{const r=await fetch(u,{signal:g});if(!r.ok)throw new Error('HTTP '+r.status+' '+L);return r}catch(x){e=x;if((x as Error)?.name==='AbortError')throw x;const m=String((x as Error)?.message??x);if(/^HTTP \d+/.test(m))throw x;if(a<d.length)await new Promise(z=>setTimeout(z,d[a]))}}throw e instanceof Error?e:new Error(String(e))}
 const readiness=new Map<string,{ready:boolean;error?:string}>();
 export async function waitForTemperature(id:string){const start=Date.now();while(Date.now()-start<90000){const state=readiness.get(id);if(state?.error)throw Error(state.error);if(state?.ready)return;await new Promise(r=>setTimeout(r,100));}throw Error('三维温度加载超时');}
 /** RLE data is a true FDS temperature volume, not interpolation between slices. */
@@ -17,9 +19,9 @@ export default function TemperatureField({scenarioId,timeS,visible,onAvailabilit
   onAvailability?.('正在加载三维温度');
   const base=`/assets/temperature-v11/${scenarioId}/`;
   void(async()=>{try{
-   const r=await fetch(base+'manifest.json',{signal:controller.signal});if(!r.ok)throw Error('该工况三维温度未接入');const manifest=await r.json();
+   const r=await __frT(base+'manifest.json',controller.signal,'该工况三维温度未接入');const manifest=await r.json();
    if(manifest.scenarioId!==scenarioId||manifest.sceneMode!=='windowed'||!manifest.volumes.length)throw Error('三维温度身份或覆盖无效');
-   const data:Record<string,Uint8Array>={};await Promise.all(manifest.volumes.flatMap((v:Volume)=>[v.asset,v.maskAsset]).map(async(asset:string)=>{const r=await fetch(base+asset,{signal:controller.signal});if(!r.ok)throw Error('三维温度文件缺失');data[asset]=new Uint8Array(await r.arrayBuffer());}));
+   const data:Record<string,Uint8Array>={};__frT;await (async()=>{for(const asset of manifest.volumes.flatMap((v:Volume)=>[v.asset,v.maskAsset])){const r=await __frT(base+asset,controller.signal,'三维温度文件缺失');data[asset]=new Uint8Array(await r.arrayBuffer());}})();
    for(const v of manifest.volumes){if(data[v.maskAsset].length!==v.ni*v.nj*v.nk)throw Error('温度实体掩码长度错误');decodeRleFrame(data[v.asset],v.frames[0],v.ni*v.nj*v.nk);}
    if(!controller.signal.aborted){setDataset({...manifest,data});readiness.set(scenarioId,{ready:true});onAvailability?.('真实三维温度场');}
   }catch(e){if(!controller.signal.aborted){readiness.set(scenarioId,{ready:false,error:String(e)});onAvailability?.(String(e));}}})();return()=>{controller.abort();readiness.delete(scenarioId);};
